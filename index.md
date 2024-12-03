@@ -48,7 +48,7 @@ My research focuses on leveraging cutting-edge AI tools, such as large language 
 
 ### **Teaching Assistant, National Taiwan University**  
 - **Courses**:  
-  - Corporate Finance (2024 Spring)    
+  - Future and Option Markets (2024 Spring)    
 - **Role**: Assisted professors with lectures and graded assignments.
 
 ---
