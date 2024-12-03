@@ -1,27 +1,52 @@
-/* 標題樣式 */
+/* 網站的整體樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header 樣式 */
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 20px;
     background: linear-gradient(to right, #007acc, #00aaff);
-    color: white;
+    color: #fff;
 }
 header h1 {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 header p {
     font-size: 1.2rem;
-    margin-top: 5px;
 }
 
-/* 主內容樣式 */
-main {
+/* 區塊樣式 */
+section {
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 標題樣式 */
+h2 {
+    border-bottom: 2px solid #007acc;
+    color: #007acc;
+    padding-bottom: 5px;
+}
+
+/* 內部連結樣式 */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 /* Footer 樣式 */
@@ -29,7 +54,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    background: #f4f4f4;
-    color: #333;
+    background: #007acc;
+    color: #fff;
     font-size: 0.9rem;
 }
