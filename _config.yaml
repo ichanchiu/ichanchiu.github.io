@@ -1,5 +1,5 @@
-title: I-Chan Chiu's Website
+title: I-Chan Chiu - Personal Website
 description: Ph.D. Candidate specializing in Finance and AI
 theme: jekyll-theme-cayman
-url: "https://ichanchiu.github.io"
-github_username: ichanchiu
+markdown: kramdown
+
