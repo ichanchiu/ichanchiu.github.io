@@ -3,8 +3,6 @@ layout: default
 title: I-Chan Chiu - Personal Website
 ---
 
-[About Me](#about-me) | [Research](#research-and-publications) | [Teaching](#teaching) | [Professional Experience](#professional-experience) | [Contact](#contact)
-
 # I-Chan Chiu  
 **Ph.D. Candidate in Finance at National Taiwan University**  
 Leveraging AI and data-driven insights to address complex financial challenges.
