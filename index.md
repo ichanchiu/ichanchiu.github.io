@@ -30,8 +30,7 @@ I am a Ph.D. candidate in finance with a passion for applying AI to financial re
 ## Research and Publications
 My research focuses on leveraging cutting-edge AI tools, such as large language models, to solve financial challenges. Selected publications include:
 - **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024 (with M. Hung, NVIDIA)  
-- **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024. (with M. Hung)  
-- **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024 (with Y. Huang, M. Hung)  
+- **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024. (with M. Hung)   
 - **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 (with Y. Huang, M. Hung)  
 - **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 (with M. Hung, K. Yen)  
 
