@@ -39,24 +39,6 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 
 ---
 
-## Teaching 🏫  
-
-**Lecturer**  
-*Shih Chien University (實踐大學)*  
-- **Course**: Big Data Analysis and Applications  
-- Delivered lectures on Python for data analysis, guiding students in hands-on exercises in data manipulation, visualization, and machine learning.  
-- **Student Feedback**:  
-  - Average course evaluation score: **4.7/5.0** 🌟  
-  - Frequently praised for clarity, enthusiasm, and practical teaching style.  
-  - [Download Full Teaching Evaluation (PDF)](ShihChienEval.pdf)  
-
-**Teaching Assistant**  
-*National Taiwan University*  
-- **Course**: Futures and Options Markets  
-  Assisted professors with lectures, graded assignments, and provided office hours to support student learning.  
-
----
-
 ## Industry Experience 💼  
 
 **Innovator / Project Manager**  
@@ -81,6 +63,24 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 - Managed and executed trades in **stocks and derivatives** across Mainland China and Taiwan markets, achieving consistent profitability.  
 - Shared expertise with junior traders, delivering comprehensive training on trading strategies and market analysis.  
 - Contributed to FDT’s goal of nurturing global trading talent, showcasing strong performance and mentorship capabilities.  
+
+---
+
+## Teaching 🏫  
+
+**Lecturer**  
+*Shih Chien University (實踐大學)*  
+- **Course**: Big Data Analysis and Applications  
+- Delivered lectures on Python for data analysis, guiding students in hands-on exercises in data manipulation, visualization, and machine learning.  
+- **Student Feedback**:  
+  - Average course evaluation score: **4.7/5.0** 🌟  
+  - Frequently praised for clarity, enthusiasm, and practical teaching style.  
+  - [Download Full Teaching Evaluation (PDF)](ShihChienEval.pdf)  
+
+**Teaching Assistant**  
+*National Taiwan University*  
+- **Course**: Futures and Options Markets  
+  Assisted professors with lectures, graded assignments, and provided office hours to support student learning.  
 
 ---
 
