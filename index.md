@@ -28,13 +28,15 @@ With a strong foundation in economics and computer science, my work focuses on:
 
 ## Research and Publications 📚  
 My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"** (2024)  
+1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, Pacific-Basin Finance Journal
+   *With M. Hung*
+2. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024  
    *With M. Hung, NVIDIA*  
-2. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"** (2024)  
-   *With M. Hung*  
-3. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"** (2024)  
+3. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  
+   *With Y.Huang, M. Hung*  
+4. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024  
    *With Y. Huang, M. Hung*  
-4. **"Svix, VIX, and Cryptocurrency Market Return"** (2024)  
+5. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024  
    *With M. Hung, K. Yen*  
 
 ---
@@ -43,26 +45,21 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 
 **Innovator / Project Manager**  
 *Fubon Financial Holding Co., Ltd. 富邦金控*  
-*Apr 2017 – Aug 2019 (2 yrs 5 mos), Taipei City, Taiwan*  
-- Directed the **Robo-Advisor project**, coordinating efforts across 4 business units and startups (Kyper, ITRI) to deliver a cutting-edge AI-driven investment solution.  
-- Spearheaded fintech innovations in financial management, including **AI life management**, **facial recognition**, and **voice recognition** technologies.  
-- Mentored and guided interns to propose groundbreaking fintech projects, focusing on **AI**, **Big Data**, and **Asset Management** applications.  
-- Led cross-functional teams to execute data-driven solutions in **fintech** and **digital transformation** initiatives.  
+*Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
+- **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups (Kyper, ITRI).  
+- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.  
 
 **Macro-Economics Analyst**  
 *SinoPac Securities (Asia) Limited 永豐金證券*  
-*Feb 2016 – Mar 2017 (1 yr 2 mos), Taipei City, Taiwan*  
-- Conducted extensive research on **domestic and foreign derivatives**, **macroeconomic trends**, and **trading strategies**.  
-- Delivered in-depth **investment outlook reports** to institutional clients, providing actionable insights.  
-- Authored **investment commentary and essays** for financial newspapers and magazines, influencing market perspectives.  
-- Collaborated in **industry-university partnerships**, serving as an instructor for applied financial training programs.  
+*Feb 2016 – Mar 2017 (1 yr 2 mos)*  
+- Delivered actionable **investment outlook reports** and authored financial commentary.  
+- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.  
 
 **Trader**  
 *FDT Group*  
-*Jul 2015 – Feb 2016 (8 mos), Taipei City, Taiwan*  
-- Managed and executed trades in **stocks and derivatives** across Mainland China and Taiwan markets, achieving consistent profitability.  
-- Shared expertise with junior traders, delivering comprehensive training on trading strategies and market analysis.  
-- Contributed to FDT’s goal of nurturing global trading talent, showcasing strong performance and mentorship capabilities.  
+*Jul 2015 – Feb 2016 (8 mos)*  
+- Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
+- Trained junior traders in **market strategies** and analysis.   
 
 ---
 
