@@ -28,16 +28,11 @@ With a strong foundation in economics and computer science, my work focuses on:
 
 ## Research and Publications 📚  
 My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal*
-   *(With M. Hung)*
-3. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024  
-   *(With M. Hung, NVIDIA)*  
-4. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  
-   *(With Y.Huang, M. Hung)*  
-5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024  
-   *(With Y. Huang, M. Hung)*  
-6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024  
-   *(With M. Hung, K. Yen)*  
+1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung)*
+3. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA)*  
+4. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  *(With Y.Huang, M. Hung)*  
+5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung)*  
+6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen)*  
 
 ---
 
@@ -48,19 +43,16 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 *Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
 - **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups (Kyper, ITRI).  
 - Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.  
-
 **Macro-Economics Analyst**  
 *SinoPac Securities (Asia) Limited 永豐金證券*  
 *Feb 2016 – Mar 2017 (1 yr 2 mos)*  
 - Delivered actionable **investment outlook reports** and authored financial commentary.  
 - Conducted research on **derivatives, macroeconomics**, and **trading strategies**.  
-
 **Trader**  
 *FDT Group*  
 *Jul 2015 – Feb 2016 (8 mos)*  
 - Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
 - Trained junior traders in **market strategies** and analysis.   
-
 ---
 
 ## Teaching 🏫  
