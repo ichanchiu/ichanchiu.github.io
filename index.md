@@ -42,12 +42,14 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 *Fubon Financial Holding Co., Ltd. 富邦金控*  
 *Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
 - **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups (Kyper, ITRI).  
-- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.  
+- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.
+
 **Macro-Economics Analyst**  
 *SinoPac Securities (Asia) Limited 永豐金證券*  
 *Feb 2016 – Mar 2017 (1 yr 2 mos)*  
 - Delivered actionable **investment outlook reports** and authored financial commentary.  
-- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.  
+- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.
+ 
 **Trader**  
 *FDT Group*  
 *Jul 2015 – Feb 2016 (8 mos)*  
