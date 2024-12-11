@@ -54,7 +54,8 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 *FDT Group*  
 *Jul 2015 – Feb 2016 (8 mos)*  
 - Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
-- Trained junior traders in **market strategies** and analysis.   
+- Trained junior traders in **market strategies** and analysis.
+ 
 ---
 
 ## Teaching 🏫  
