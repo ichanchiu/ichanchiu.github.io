@@ -28,16 +28,17 @@ With a strong foundation in economics and computer science, my work focuses on:
 
 ## Research and Publications 📚  
 My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, Pacific-Basin Finance Journal
-   *With M. Hung*
-2. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024  
-   *With M. Hung, NVIDIA*  
-3. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  
-   *With Y.Huang, M. Hung*  
-4. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024  
-   *With Y. Huang, M. Hung*  
-5. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024  
-   *With M. Hung, K. Yen*  
+1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal*
+
+   *(With M. Hung)*
+3. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024  
+   *(With M. Hung, NVIDIA)*  
+4. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  
+   *(With Y.Huang, M. Hung)*  
+5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024  
+   *(With Y. Huang, M. Hung)*  
+6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024  
+   *(With M. Hung, K. Yen)*  
 
 ---
 
