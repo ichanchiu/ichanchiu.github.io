@@ -30,11 +30,16 @@ With a strong foundation in economics and computer science, my work focuses on:
 
 ## Research and Publications 📚  
 My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung) <Corresponding Author, First Author> <NSTC A-tier2 Journal>*
-3. **"Omni-FinAI: Unlocking Financial Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA) <Corresponding Author, First Author>* 
-4. **"The Hidden Asymmetry of Information Discreteness: Insights from Semivariance Decomposition"**, 2024  *(With Y.Huang, M. Hung) <First Author>*  
-5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung) <Corresponding Author>* 
-6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen) <First Author>* 
+1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung)*
+   <Corresponding Author, First Author> <NSTC A-tier2 Journal>
+2. **"Omni-FinAI: Unlocking Financial Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA)*
+   <Corresponding Author, First Author> 
+3. **"The Hidden Asymmetry of Information Discreteness: Insights from Semivariance Decomposition"**, 2024  *(With Y.Huang, M. Hung)*
+   <First Author>  
+4. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung)*
+   <Corresponding Author> 
+5. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen)*
+   <First Author> 
 
 ---
 
