@@ -12,15 +12,17 @@ Leveraging AI and data-driven insights to address complex financial challenges. 
 ## About Me 🔍
 I am a Ph.D. candidate in finance with a passion for applying AI to financial research, investment analysis, and market insights.  
 With a strong foundation in economics and computer science, my work focuses on:
-- **AI in Finance**
-- **Large Language Models (LLMs)**
-- **Textual Analysis**
-- **Asset Pricing**
+- **AI Applications in Finance**
+- **Machine Learning**
+- **Deep Learning**
+- **Empirical Asset Pricing**
 - **Portfolio Management**
-- **Machine Learning Applications**
+- **Fintech**
+- **Textual Analysis**
+- **Large Language Models (LLMs)**
 
 **Education 🎓**  
-- **Ph.D. in Finance**, National Taiwan University (Expected Graduation: 2025)  
+- **Ph.D. in Finance**, National Taiwan University   
 - **M.A. in Economics**, National Taiwan University  
 - **B.A. in Computer Science & Information Engineering**, National Taiwan University  
 
@@ -28,34 +30,12 @@ With a strong foundation in economics and computer science, my work focuses on:
 
 ## Research and Publications 📚  
 My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung)*
-3. **"Pre-trained Domain-Specific Large Language Models for Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA)*  
-4. **"Revisiting Frog in the Pan: Generalizing Information Discreteness in Asset Pricing"**, 2024  *(With Y.Huang, M. Hung)*  
-5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung)*  
-6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen)*  
+1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung)* <Corresponding Author, First Author> <NSTC A-tier2 Journal>
+3. **"Omni-FinAI: Unlocking Financial Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA)* <Corresponding Author, First Author> 
+4. **"“The Hidden Asymmetry of Information Discreteness: Insights from Semivariance Decomposition"**, 2024  *(With Y.Huang, M. Hung)* <First Author> 
+5. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung)* <Corresponding Author> 
+6. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen)* <First Author>
 
----
-
-## Industry Experience 💼  
-
-**Innovator / Project Manager**  
-*Fubon Financial Holding Co., Ltd. 富邦金控*  
-*Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
-- **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups (Kyper, ITRI).  
-- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.
-
-**Macro-Economics Analyst**  
-*SinoPac Securities (Asia) Limited 永豐金證券*  
-*Feb 2016 – Mar 2017 (1 yr 2 mos)*  
-- Delivered actionable **investment outlook reports** and authored financial commentary.  
-- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.
- 
-**Trader**  
-*FDT Group*  
-*Jul 2015 – Feb 2016 (8 mos)*  
-- Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
-- Trained junior traders in **market strategies** and analysis.
- 
 ---
 
 ## Teaching 🏫  
@@ -74,6 +54,28 @@ My research focuses on AI applications in finance, textual analysis, and asset p
 - **Course**: Futures and Options Markets  
   Assisted professors with lectures, graded assignments, and provided office hours to support student learning.  
 
+---
+
+## Industry Experience 💼  
+
+**Innovator / Project Manager**  
+*Fubon Financial Holding Co., Ltd. 富邦金控*  
+*Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
+- **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups.  
+- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.
+
+**Macro-Economics Analyst**  
+*SinoPac Securities (Asia) Limited 永豐金證券*  
+*Feb 2016 – Mar 2017 (1 yr 2 mos)*  
+- Delivered actionable **investment outlook reports** and authored financial commentary.  
+- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.
+ 
+**Trader**  
+*FDT Group*  
+*Jul 2015 – Feb 2016 (8 mos)*  
+- Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
+- Trained junior traders in **market strategies** and analysis.
+ 
 ---
 
 ## Contact ✉️  
