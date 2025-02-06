@@ -12,14 +12,14 @@ Leveraging AI and data-driven insights to address complex financial challenges. 
 ## About Me 🔍
 I am a Ph.D. candidate in finance with a passion for applying AI to financial research, investment analysis, and market insights.  
 With a strong foundation in economics and computer science, my work focuses on:
-- **AI Applications in Finance**
+- **Artificial Intelligence**
 - **Machine Learning**
 - **Deep Learning**
-- **Empirical Asset Pricing**
-- **Portfolio Management**
-- **Fintech**
+- **Asset Pricing**
+- **Financial Economics**
 - **Textual Analysis**
 - **Large Language Models (LLMs)**
+
 
 **Education 🎓**  
 - **Ph.D. in Finance**, National Taiwan University   
