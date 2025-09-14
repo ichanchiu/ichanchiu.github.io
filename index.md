@@ -3,7 +3,7 @@ layout: default
 title: I-Chan Chiu - Assistant Professor
 ---
 
-# I-Chan Chiu (邱奕展)
+# I-Chan Chiu (邱翊展)
 
 **Assistant Professor, Department of Economics, Fu Jen Catholic University** ✨
 
