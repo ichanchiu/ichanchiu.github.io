@@ -1,88 +1,102 @@
 ---
 layout: default
-title: I-Chan Chiu - Personal Website
+title: I-Chan Chiu - Assistant Professor
 ---
 
-# I-Chan Chiu  
-**Ph.D. Candidate in Finance at National Taiwan University**  
-Leveraging AI and data-driven insights to address complex financial challenges. ✨
+# I-Chan Chiu (邱奕展)
 
----
+**Assistant Professor, Department of Economics, Fu Jen Catholic University** ✨
 
-## About Me 🔍
-I am a Ph.D. candidate in finance with a passion for applying AI to financial research, investment analysis, and market insights.  
-With a strong foundation in economics and computer science, my work focuses on:
-- **Artificial Intelligence**
-- **Machine Learning**
-- **Deep Learning**
-- **Asset Pricing**
-- **Financial Economics**
-- **Textual Analysis**
-- **Large Language Models (LLMs)**
-
-
-**Education 🎓**  
-- **Ph.D. in Finance**, National Taiwan University   
-- **M.A. in Economics**, National Taiwan University  
-- **B.A. in Computer Science & Information Engineering**, National Taiwan University  
+[Email](mailto:ichan.chiu@fju.edu.tw) • [Google Scholar](YOUR_GOOGLE_SCHOLAR_LINK) • [LinkedIn](https://linkedin.com/in/ichanchiu) • [GitHub](YOUR_GITHUB_LINK)
 
 ---
 
-## Research and Publications 📚  
-My research focuses on AI applications in finance, textual analysis, and asset pricing. Selected publications include:
-1. **"Finance-Specific Large Language Models: Advancing Sentiment Analysis and Return Prediction with Llama 2"**, 2024, forthcoming, *Pacific-Basin Finance Journal* *(With M. Hung)*
-   (Corresponding Author, First Author) (NSTC A-tier2 Journal)
-2. **"Omni-FinAI: Unlocking Financial Disclosure Insights"**, 2024 *(With M. Hung, NVIDIA)*
-   (Corresponding Author, First Author)
-3. **"The Hidden Asymmetry of Information Discreteness: Insights from Semivariance Decomposition"**, 2024  *(With Y.Huang, M. Hung)*
-   (First Author)  
-4. **"Firm-Specific News Sentiment: Weighing Relevance and Predicting Returns"**, 2024 *(With Y. Huang, M. Hung)*
-   (Corresponding Author) 
-5. **"Svix, VIX, and Cryptocurrency Market Return"**, 2024 *(With M. Hung, K. Yen)*
-   (First Author) 
+## About Me
+
+I am an Assistant Professor in the Department of Economics at Fu Jen Catholic University, starting from August 2025. My research integrates Artificial Intelligence (AI), particularly Large Language Models (LLMs) and textual analysis, with asset pricing and financial economics.
+
+My work aims to leverage computational techniques to extract novel insights from financial data, addressing complex challenges in investment analysis and market behavior. My Ph.D. in Finance from National Taiwan University laid the groundwork for my current research agenda.
+
+Prior to my academic career, I gained extensive industry experience at Fubon Financial Holding and SinoPac Securities, where I led fintech projects, including a robo-advisor, and conducted macroeconomic analysis. This dual background in academia and industry uniquely positions me to bridge theoretical research with practical applications.
 
 ---
 
-## Teaching 🏫  
+## Education
 
-**Lecturer**  
-*Shih Chien University (實踐大學)*  
-- **Course**: Big Data Analysis and Applications  
-- Delivered lectures on Python for data analysis, guiding students in hands-on exercises in data manipulation, visualization, and machine learning.  
-- **Student Feedback**:  
-  - Average course evaluation score: **4.7/5.0** 🌟  
-  - Frequently praised for clarity, enthusiasm, and practical teaching style.  
-  - [Download Full Teaching Evaluation (PDF)](ShihChienEval.pdf)  
-
-**Teaching Assistant**  
-*National Taiwan University*  
-- **Course**: Futures and Options Markets  
-  Assisted professors with lectures, graded assignments, and provided office hours to support student learning.  
+- **Ph.D. in Finance**, National Taiwan University
+- **M.A. in Economics**, National Taiwan University
+- **B.A. in Computer Science & Information Engineering**, National Taiwan University
 
 ---
 
-## Industry Experience 💼  
+## Research Interests
 
-**Innovator / Project Manager**  
-*Fubon Financial Holding Co., Ltd. 富邦金控*  
-*Apr 2017 – Aug 2019 (2 yrs 5 mos)*  
-- **Led the Robo-Advisor project**, delivering an AI-driven investment solution in collaboration with startups.  
-- Innovated **fintech solutions** in AI life management, facial recognition, and voice recognition.
+- AI in Finance
+- Asset Pricing
+- Machine Learning
+- Textual Analysis & Natural Language Processing (NLP)
+- Large Language Models (LLMs)
 
-**Macro-Economics Analyst**  
-*SinoPac Securities (Asia) Limited 永豐金證券*  
-*Feb 2016 – Mar 2017 (1 yr 2 mos)*  
-- Delivered actionable **investment outlook reports** and authored financial commentary.  
-- Conducted research on **derivatives, macroeconomics**, and **trading strategies**.
- 
-**Trader**  
-*FDT Group*  
-*Jul 2015 – Feb 2016 (8 mos)*  
-- Managed **stock and derivative trades** in Mainland China and Taiwan markets.  
-- Trained junior traders in **market strategies** and analysis.
- 
 ---
 
-## Contact ✉️  
-- **Email**: ichanchiu@gmail.com  
-- **LinkedIn**: [linkedin.com/in/ichanchiu](https://linkedin.com/in/ichanchiu)
+## Teaching
+
+### Fu Jen Catholic University
+**Assistant Professor (Aug 2025 - Present)**
+- Machine Learning
+- Artificial Intelligence Applications
+- Investment
+- Investment Management
+- Futures and Options
+- Python Programming
+
+### Past Teaching Experience
+**Lecturer, Shih Chien University**
+- **Course**: Big Data Analysis and Applications
+- **Summary**: Delivered lectures on Python for data analysis, guiding students in hands-on exercises in data manipulation, visualization, and machine learning.
+- **Student Feedback**: Achieved an average course evaluation score of **4.7/5.0** for clarity and practical teaching style.
+
+**Teaching Assistant, National Taiwan University**
+- **Course**: Futures and Options Markets
+
+---
+
+## Publications
+
+### Peer-Reviewed Journal Articles
+1.  **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
+    (with M. Hung)  
+    *Pacific-Basin Finance Journal*, 90, 102632. (NSTC A-tier2 Journal)  
+    *(First Author, Corresponding Author)*
+
+2.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (with Y. Huang, M. Hung)  
+    *Applied Economics Letters*. (Published)  
+    *(Corresponding Author)*
+
+### Working Papers
+1.  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.** (with Y. Huang)
+
+2.  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)  
+    *(First Author, Corresponding Author)*
+
+3.  **The Hidden Asymmetry of Information Discreteness: Insights from Semivariance Decomposition.** (with Y. Huang, M. Hung)  
+    *(First Author)*
+
+4.  **Svix, VIX, and Cryptocurrency Market Return.** (with M. Hung, K. Yen)  
+    *(First Author)*
+
+---
+
+## Industry Experience
+
+**Innovator / Project Manager, Fubon Financial Holding Co., Ltd.** (2017 – 2019)
+- Led the Robo-Advisor project, delivering an AI-driven investment solution.
+- Innovated fintech solutions in AI life management, facial recognition, and voice recognition.
+
+**Macro-Economics Analyst, SinoPac Securities (Asia) Limited** (2016 – 2017)
+- Delivered actionable investment outlook reports and authored financial commentary.
+- Conducted research on derivatives, macroeconomics, and trading strategies.
+
+**Trader, FDT Group** (2015 – 2016)
+- Managed stock and derivative trades in Mainland China and Taiwan markets.
+- Trained junior traders in market strategies and analysis.
