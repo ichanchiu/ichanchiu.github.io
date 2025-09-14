@@ -7,7 +7,7 @@ title: I-Chan Chiu - Assistant Professor
 
 **Assistant Professor, Department of Economics, Fu Jen Catholic University** ✨
 
-[Email](mailto:ichan.chiu@fju.edu.tw) • [Google Scholar](YOUR_GOOGLE_SCHOLAR_LINK) • [LinkedIn](https://linkedin.com/in/ichanchiu) • [GitHub](YOUR_GITHUB_LINK)
+[Email](mailto:icchiu@mail.fju.edu.tw) • [Google Scholar](https://scholar.google.com/citations?user=u2aPUQEAAAAJ&hl=zh-TW) • [LinkedIn](https://linkedin.com/in/ichanchiu) • [GitHub](https://github.com/ichanchiu)
 
 ---
 
