@@ -65,12 +65,14 @@ Prior to my academic career, I gained extensive industry experience at Fubon Fin
 
 ### Published
 1. **Svix, VIX, and Cryptocurrency Market Return.** (with M. Hung, K. Yen)  
-   *Quarterly Review of Economics and Finance*. (Forthcoming, NTSC A- Journal)
+   *Quarterly Review of Economics and Finance*. (Forthcoming, NSTC A- Journal)
    *(First Author)*
+   
 3.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (with Y. Huang, M. Hung)  
     *Applied Economics Letters*. (Forthcoming)  
     *(Corresponding Author)*
-4. **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
+    
+5. **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
     (with M. Hung)  
     *Pacific-Basin Finance Journal*, 90, 102632. (NSTC A-tier2 Journal)  
     *(First Author, Corresponding Author)*
