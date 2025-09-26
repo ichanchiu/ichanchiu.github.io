@@ -17,7 +17,7 @@ I am an Assistant Professor in the Department of Economics at Fu Jen Catholic Un
 
 My work aims to leverage computational techniques to extract novel insights from financial data, addressing complex challenges in investment analysis and market behavior. My Ph.D. in Finance from National Taiwan University laid the groundwork for my current research agenda.
 
-Prior to my academic career, I gained extensive industry experience at Fubon Financial Holding and SinoPac Securities, where I led fintech projects, including a robo-advisor, and conducted macroeconomic analysis. This dual background in academia and industry uniquely positions me to bridge theoretical research with practical applications.
+Prior to my academic career, I gained some industry experience at Fubon Financial Holding and SinoPac Securities, where I led fintech projects, including a robo-advisor, and conducted macroeconomic analysis. This dual background in academia and industry uniquely positions me to bridge theoretical research with practical applications.
 
 ---
 
