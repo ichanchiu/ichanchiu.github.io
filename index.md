@@ -64,7 +64,7 @@ Prior to my academic career, I gained some industry experience at Fubon Financia
 ## Publications
 
 ### Published
-1. **Svix, VIX, and Cryptocurrency Market Return.** (with M. Hung, K. Yen)  
+1. **SVIX, VIX, and Cryptocurrency Market Return.** (with M. Hung, K. Yen)  
    *Quarterly Review of Economics and Finance*. (Forthcoming, NSTC A- Journal)
    *(First Author)*
    
