@@ -84,7 +84,7 @@ Prior to my academic career, I gained some industry experience at Fubon Financia
 3.  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)  
     *(First Author, Corresponding Author)*
 
-4.  **Mispricing on Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
+4.  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
     *(First Author)*
 
 ---
