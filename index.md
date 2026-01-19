@@ -26,28 +26,6 @@ title: 邱翊展 I-Chan Chiu
 
 ---
 
-## Teaching
-
-### Fu Jen Catholic University
-**Assistant Professor (Aug 2025 - Present)**
-- Machine Learning
-- Artificial Intelligence Applications
-- Investment
-- Investment Management
-- Futures and Options
-- Python Programming
-
-### Past Teaching Experience
-**Adjunct Lecturer, Shih Chien University**
-- **Course**: Big Data Analysis and Applications
-- **Summary**: Delivered lectures on Python for data analysis, guiding students in hands-on exercises in data manipulation, visualization, and machine learning.
-- **Student Feedback**: Achieved an average course evaluation score of **4.7/5.0** for clarity and practical teaching style.
-
-**Teaching Assistant, National Taiwan University**
-- **Course**: Futures and Options Markets
-
----
-
 ## Publications
 
 ### Published
@@ -69,3 +47,14 @@ title: 邱翊展 I-Chan Chiu
 
 3.  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
 
+
+---
+
+## Teaching
+
+- Machine Learning
+- Artificial Intelligence Applications
+- Investment
+- Investment Management
+- Futures and Options
+- Python Programming
