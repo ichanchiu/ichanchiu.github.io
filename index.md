@@ -23,6 +23,7 @@ title: 邱翊展 I-Chan Chiu
 - Empirical Asset Pricing
 - Machine Learning
 - Textual Analysis & Natural Language Processing (NLP)
+
 ---
 
 ## Teaching
@@ -54,7 +55,7 @@ title: 邱翊展 I-Chan Chiu
    *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
    
 2.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025) (with Y. Huang, M. Hung)  
-    *Applied Economics Letters*, 1-10.
+    *Applied Economics Letters*, 1-10. (SSCI)
     
 3. **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
     (with M. Hung)  
