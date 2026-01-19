@@ -50,11 +50,11 @@ title: 邱翊展 I-Chan Chiu
 ## Publications
 
 ### Published
-1. **SVIX, VIX, and Cryptocurrency Market Return.** (with M. Hung, K. Yen)  
-   *Quarterly Review of Economics and Finance*. (Forthcoming, NSTC A- Journal)
+1. **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
+   *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
    
-2.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (with Y. Huang, M. Hung)  
-    *Applied Economics Letters*. (Forthcoming)  
+2.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025) (with Y. Huang, M. Hung)  
+    *Applied Economics Letters*, 1-10.
     
 3. **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
     (with M. Hung)  
