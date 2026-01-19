@@ -22,7 +22,7 @@ title: 邱翊展 I-Chan Chiu
 - Machine Learning
 - Textual Analysis & Natural Language Processing (NLP)
 
-### Published Papers
+## Published Papers
 1. **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
    *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
    
@@ -33,7 +33,7 @@ title: 邱翊展 I-Chan Chiu
     (with M. Hung)  
     *Pacific-Basin Finance Journal*, 90, 102632. (NSTC A-tier2 Journal)
    
-### Working Papers
+## Working Papers
 
 1.  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)
 
