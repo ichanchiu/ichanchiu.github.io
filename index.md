@@ -15,8 +15,6 @@ title: 邱翊展 I-Chan Chiu
 - **M.A. in Economics**, National Taiwan University
 - **B.A. in Computer Science & Information Engineering**, National Taiwan University
 
----
-
 ## Research Interests
 
 - AI in Finance
@@ -24,11 +22,7 @@ title: 邱翊展 I-Chan Chiu
 - Machine Learning
 - Textual Analysis & Natural Language Processing (NLP)
 
----
-
-## Publications
-
-### Published
+### Published Papers
 1. **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
    *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
    
@@ -46,9 +40,6 @@ title: 邱翊展 I-Chan Chiu
 2.  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.** (with Y. Huang, M. Hung)
 
 3.  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
-
-
----
 
 ## Teaching
 
