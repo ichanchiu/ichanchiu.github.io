@@ -7,7 +7,7 @@ title: 邱翊展 I-Chan Chiu
 
 **Assistant Professor, Department of Economics, Fu Jen Catholic University** ✨
 
-[Email](mailto:icchiu@mail.fju.edu.tw) • [Google Scholar](https://scholar.google.com/citations?user=u2aPUQEAAAAJ&hl=zh-TW) • [LinkedIn](https://linkedin.com/in/ichanchiu) • [GitHub](https://github.com/ichanchiu)
+[Email](mailto:icchiu@mail.fju.edu.tw) •[LinkedIn](https://linkedin.com/in/ichanchiu) • [GitHub](https://github.com/ichanchiu)
 
 ## Education
 
