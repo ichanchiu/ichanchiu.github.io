@@ -23,23 +23,23 @@ title: 邱翊展 I-Chan Chiu
 - Textual Analysis & Natural Language Processing (NLP)
 
 ## Published Papers
-1. **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
+- **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
    *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
    
-2.  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025) (with Y. Huang, M. Hung)  
+-  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025) (with Y. Huang, M. Hung)  
     *Applied Economics Letters*, 1-10. (SSCI)
     
-3. **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
+- **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)  
     (with M. Hung)  
     *Pacific-Basin Finance Journal*, 90, 102632. (NSTC A-tier2 Journal)
    
 ## Working Papers
 
-1.  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)
+-  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)
 
-2.  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.** (with Y. Huang, M. Hung)
+-  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.** (with Y. Huang, M. Hung)
 
-3.  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
+-  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
 
 ## Teaching
 
