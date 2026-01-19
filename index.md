@@ -24,18 +24,21 @@ title: 邱翊展 I-Chan Chiu
 
 ## Published Papers
 
-- **SVIX, VIX, and Cryptocurrency Market Return.** (2025) (with M. Hung, K. Yen)  
-   *The Quarterly Review of Economics and Finance*, 102055. (NSTC A- Journal)
--  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025) (with Y. Huang, M. Hung)  
-    *Applied Economics Letters*, 1-10. (SSCI)
-- **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025) (with M. Hung)  
-    *Pacific-Basin Finance Journal*, 90, 102632. (NSTC A-tier2 Journal)
+- **SVIX, VIX, and Cryptocurrency Market Return.** (2025)   
+  - *The Quarterly Review of Economics and Finance*, 102055. (with M. Hung, K. Yen) (NSTC A- Journal) 
+-  **Firm-Specific News Sentiment and Stock Returns: The Impact of Relevance and Time Frame.** (2025)   
+  - *Applied Economics Letters*, 1-10. (with Y. Huang, M. Hung) (SSCI)
+- **Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2.** (2025)   
+  - *Pacific-Basin Finance Journal*, 90, 102632. (with M. Hung) (NSTC A-tier2 Journal)
    
 ## Working Papers
 
--  **Omni-FinAI: Unlocking Financial Disclosure Insights.** (with M. Hung, NVIDIA)
--  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.** (with Y. Huang, M. Hung)
--  **Mispricing in Semivariance Information Discreteness.** (with Y. Huang, M. Hung)  
+-  **Omni-FinAI: Unlocking Financial Disclosure Insights.**
+  -  (with M. Hung, NVIDIA)
+-  **Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium.**
+  -  (with Y. Huang, M. Hung)
+-  **Mispricing in Semivariance Information Discreteness.**
+  -  (with Y. Huang, M. Hung)  
 
 ## Teaching
 
