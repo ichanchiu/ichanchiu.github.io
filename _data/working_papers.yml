@@ -6,17 +6,17 @@
       short: I. Chiu
       self: true
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
     - name: Zih-Ching Chen
-      short: Z.-C. Chen
+      short: Z. Chen
     - name: Jun-wei Chiu
-      short: J.-W. Chiu
+      short: J. Chiu
     - name: Yang-Hsien Lin
-      short: Y.-H. Lin
+      short: Y. Lin
     - name: Cheng-Kuang Lee
-      short: C.-K. Lee
+      short: C. Lee
     - name: Eddie TC Huang
-      short: E. T. C. Huang
+      short: E. T. Huang
     - name: Simon See
       short: S. See
   status:
@@ -38,17 +38,19 @@
       label_zh: 資料集
       url: https://huggingface.co/datasets/ichanchiu/Summarized_10K-MDA
 
-- id: deconstructing-risk
+- id: riskiness
   section: working-paper
-  title: "Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium"
+  title: "AS Riskiness and Entropy"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
       self: true
     - name: Yi-Ta Huang
-      short: Y.-T. Huang
+      short: Y. Huang
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
+    - name: Chia-Yi Yen
+      short: C. Yen
   status:
     en: Working Paper
     zh: 工作論文
@@ -61,9 +63,54 @@
       short: I. Chiu
       self: true
     - name: Yi-Ta Huang
-      short: Y.-T. Huang
+      short: Y. Huang
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
+  status:
+    en: Working Paper
+    zh: 工作論文
+    
+- id: fundllm
+  section: working-paper
+  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-based Evidence From New Mutual Fund"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Yi-Ta Huang
+      short: Y. Huang
+    - name: Yong-Jyun Tu
+      short: Y. Tu
+    - name: Chia-Yi Yen
+      short: C. Yen
+  status:
+    en: Working Paper
+    zh: 工作論文
+- id: attrition-latency
+  section: working-paper
+  title: "Attrition and Latency"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Chi-Yen Lin
+      short: C. Lin
+    - name: Yi-Ta Huang
+      short: Y. Huang
+    - name: Chia-Yi Yen
+      short: C. Yen
+  status:
+    en: Working Paper
+    zh: 工作論文
+- id: ptt
+  section: working-paper
+  title: "Revealed Fragility: Large Language Modelsand the Pricing of Retail Stock Recommendations"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Yi-Ta Huang
+      short: Y. Huang
   status:
     en: Working Paper
     zh: 工作論文
