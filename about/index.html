@@ -1,0 +1,78 @@
+---
+layout: default
+lang: en
+page_id: about
+title: About | I-Chan Chiu
+description: Biography, education, academic appointments, and contact information for I-Chan Chiu.
+alternate_url: /zh/about/
+---
+{% include page-hero.html eyebrow="About" title="Finance, economics, and computation." intro="I-Chan Chiu is an Assistant Professor in the Department of Economics at Fu Jen Catholic University." %}
+
+<section class="section content-section">
+  <div class="shell bio-grid">
+    <div class="bio-portrait">
+      <img src="{{ site.data.profile.portrait | relative_url }}" alt="Portrait of I-Chan Chiu" width="794" height="794">
+    </div>
+    <div class="prose bio-copy">
+      <p>I study empirical asset pricing, financial text, and artificial intelligence for finance. My work examines how market information, financial disclosures, and risk are transformed into investor expectations and asset returns.</p>
+      <p>My background spans finance, economics, and computer science. This combination shapes a research approach that connects economic questions with natural language processing, domain-specific large language models, and interpretable machine learning.</p>
+      <p>I also develop applied learning resources in investment, quantitative finance, machine learning, and artificial intelligence.</p>
+      <div class="bio-actions">
+        <button class="button button-secondary" type="button" data-print>Print / Save as PDF</button>
+        <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">Email me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alternate-section" aria-labelledby="appointments-heading">
+  <div class="shell timeline-grid">
+    <div>
+      <p class="eyebrow">Academic path</p>
+      <h2 id="appointments-heading">Appointments</h2>
+    </div>
+    <div class="timeline">
+      {% for appointment in site.data.appointments %}
+        <article class="timeline-item">
+          <p class="timeline-period">{{ appointment.period.en }}</p>
+          <h3>{{ appointment.title.en }}</h3>
+          <p>{{ appointment.institution.en }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section content-section" aria-labelledby="education-heading">
+  <div class="shell timeline-grid">
+    <div>
+      <p class="eyebrow">Education</p>
+      <h2 id="education-heading">Training across disciplines</h2>
+    </div>
+    <div class="timeline">
+      {% for item in site.data.education %}
+        <article class="timeline-item">
+          <p class="timeline-period">{{ item.year }}</p>
+          <h3>{{ item.degree.en }}</h3>
+          <p>{{ item.institution.en }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" aria-labelledby="contact-heading">
+  <div class="shell contact-grid">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-heading">Get in touch</h2>
+      <p>Research collaboration, academic exchange, and applied conversations with finance and AI teams are welcome.</p>
+    </div>
+    <address class="contact-card">
+      <div><span>Email</span><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></div>
+      <div><span>Office</span><p>{{ site.data.profile.office.en }}</p></div>
+      <div><span>Phone</span><a href="tel:+886229052707">{{ site.data.profile.phone.en }}</a></div>
+      <div><span>Official profile</span><a href="{{ site.data.profile.links.department_en }}">Department of Economics <span aria-hidden="true">↗</span></a></div>
+    </address>
+  </div>
+</section>

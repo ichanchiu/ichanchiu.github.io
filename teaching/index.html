@@ -1,0 +1,43 @@
+---
+layout: default
+lang: en
+page_id: teaching
+title: Teaching | I-Chan Chiu
+description: Courses and open teaching resources by I-Chan Chiu in finance, artificial intelligence, machine learning, and quantitative methods.
+alternate_url: /zh/teaching/
+---
+{% include page-hero.html eyebrow="Teaching" title="Learn the concept. Build the evidence. Make the decision." intro="I teach finance and artificial intelligence as applied disciplines—combining rigorous concepts, executable models, and evidence-based decisions." %}
+
+<section class="section content-section" aria-labelledby="courses-heading">
+  <div class="shell split-heading">
+    <div>
+      <p class="eyebrow">Courses</p>
+      <h2 id="courses-heading">Finance and computational methods</h2>
+    </div>
+    <ol class="course-list">
+      {% for course in site.data.teaching.courses %}
+        <li><span>0{{ forloop.index }}</span>{{ course.en }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section alternate-section" aria-labelledby="resources-heading">
+  <div class="shell">
+    <div class="section-intro section-intro-dark">
+      <p class="eyebrow">Learning resources</p>
+      <h2 id="resources-heading">From explanation to hands-on practice.</h2>
+      <p>Interactive labs, notebooks, and course environments designed to make quantitative ideas testable in the browser.</p>
+    </div>
+    <div class="resource-grid">
+      {% for resource in site.data.teaching.resources %}
+        <article class="resource-card{% if resource.restricted %} resource-restricted{% endif %}">
+          <div class="resource-access">{{ resource.access.en }}</div>
+          <h3>{{ resource.title.en }}</h3>
+          <p>{{ resource.description.en }}</p>
+          <a href="{{ resource.url }}">Open resource <span aria-hidden="true">↗</span></a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+- id: asset-pricing
+  number: "01"
+  title:
+    en: Asset Pricing & Risk
+    zh: 資產定價與風險
+  summary:
+    en: I examine how tail risk, asymmetric information, mispricing, and time-varying factor importance shape returns across traditional and digital asset markets.
+    zh: 我研究尾端風險、資訊不對稱、錯誤定價與時變因子重要性，如何影響傳統與數位資產市場的報酬。
+  topics:
+    en:
+      - Empirical asset pricing
+      - Tail risk and risk measurement
+      - Machine-learning factor models
+    zh:
+      - 實證資產定價
+      - 尾端風險與風險衡量
+      - 機器學習因子模型
+
+- id: financial-text
+  number: "02"
+  title:
+    en: Financial Text & Investor Expectations
+    zh: 金融文本與投資人預期
+  summary:
+    en: I study how relevance, time horizon, uncertainty, and language in disclosures and market news influence investor expectations and return predictability.
+    zh: 我分析企業揭露與市場新聞中的攸關性、時間尺度、不確定性與語言特徵，如何影響投資人預期與報酬可預測性。
+  topics:
+    en:
+      - Corporate disclosures and earnings calls
+      - News sentiment and market narratives
+      - Natural language processing
+    zh:
+      - 公司揭露與法說會文本
+      - 新聞情緒與市場敘事
+      - 自然語言處理
+
+- id: ai-finance
+  number: "03"
+  title:
+    en: Artificial Intelligence for Finance
+    zh: 金融人工智慧
+  summary:
+    en: I develop and evaluate domain-specific language models and interpretable machine-learning methods that turn complex financial evidence into decision-relevant signals.
+    zh: 我開發並評估金融領域大型語言模型與可解釋機器學習方法，將複雜的金融資訊轉化為與決策相關的訊號。
+  topics:
+    en:
+      - Finance-specific large language models
+      - Interpretable machine learning
+      - Open models, data, and evaluation
+    zh:
+      - 金融領域大型語言模型
+      - 可解釋機器學習
+      - 開放模型、資料與評估

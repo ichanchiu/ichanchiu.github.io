@@ -1,0 +1,76 @@
+---
+layout: default
+lang: en
+page_id: home
+title: I-Chan Chiu | Asset Pricing, Financial Text, and AI
+description: I-Chan Chiu is an Assistant Professor of Economics at Fu Jen Catholic University researching asset pricing, financial text, and artificial intelligence.
+alternate_url: /zh/
+---
+{% assign profile = site.data.profile %}
+{% assign omni = site.data.working_papers | where: "id", "omni-finai" | first %}
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Assistant Professor · Fu Jen Catholic University</p>
+      <h1>{{ profile.name.en }}</h1>
+      <p class="hero-headline">{{ profile.headline.en }}</p>
+      <p class="hero-summary">{{ profile.summary.en }}</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+        <a class="button button-secondary" href="{{ '/publications/' | relative_url }}">View publications</a>
+      </div>
+      <div class="identity-links" aria-label="Academic profiles">
+        <a href="{{ profile.links.orcid }}" rel="me">ORCID</a>
+        <a href="{{ profile.links.huggingface }}">Hugging Face</a>
+        <a href="{{ profile.links.github }}" rel="me">GitHub</a>
+      </div>
+    </div>
+    <figure class="portrait-wrap">
+      <div class="portrait-frame">
+        <img src="{{ profile.portrait | relative_url }}" alt="Portrait of I-Chan Chiu" width="794" height="794" fetchpriority="high">
+      </div>
+      <figcaption>
+        <span>{{ profile.title.en }}</span>
+        <span>{{ profile.institution.en }}</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section research-overview" aria-labelledby="research-heading">
+  <div class="shell">
+    <div class="section-intro">
+      <p class="eyebrow">Research agenda</p>
+      <h2 id="research-heading">Finance questions, computational methods.</h2>
+      <p>I study how information, expectations, and risk are reflected in asset prices—and how modern AI can make financial evidence more useful and interpretable.</p>
+    </div>
+    <div class="pillar-grid">
+      {% for area in site.data.research %}
+        <article class="pillar-card">
+          <span class="pillar-number">{{ area.number }}</span>
+          <h3>{{ area.title.en }}</h3>
+          <p>{{ area.summary.en }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section featured-work" aria-labelledby="featured-heading">
+  <div class="shell feature-panel">
+    <div class="feature-label">
+      <p class="eyebrow">Selected work</p>
+      <span class="status-badge">{{ omni.status.en }} · {{ omni.venue_short }}</span>
+    </div>
+    <div class="feature-content">
+      <h2 id="featured-heading">{{ omni.title }}</h2>
+      <p class="authors">{% include authors.html authors=omni.authors %}</p>
+      <p>A finance-specific language model research program connecting academic evidence with openly available models and data resources.</p>
+      <div class="text-links">
+        {% for link in omni.links %}
+          {% unless link.label == 'Dataset' %}<a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

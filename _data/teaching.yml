@@ -1,0 +1,58 @@
+courses:
+  - en: Investment
+    zh: 投資學
+  - en: Futures and Options
+    zh: 期貨與選擇權
+  - en: Investment Management
+    zh: 投資管理
+  - en: Introduction to Asset Management Practice
+    zh: 初階資產管理實務
+  - en: Artificial Intelligence Applications
+    zh: 人工智慧應用
+  - en: Machine Learning
+    zh: 機器學習
+  - en: Topics in Quantitative Finance and Artificial Intelligence
+    zh: 量化金融與人工智慧專題
+
+resources:
+  - title:
+      en: AI Teaching Lab
+      zh: 翊展老師的 AI 教學網
+    description:
+      en: A public, hands-on learning hub for artificial intelligence and quantitative finance.
+      zh: 結合人工智慧與量化金融的公開實作型學習網站。
+    url: https://ichan.tw/
+    access:
+      en: Public
+      zh: 公開
+  - title:
+      en: Quantitative Finance Interactive Lab
+      zh: 量化金融互動實驗室
+    description:
+      en: Browser-based experiments in performance measurement, risk, portfolio construction, and backtesting.
+      zh: 在瀏覽器中操作績效衡量、風險、投資組合建構與策略回測。
+    url: https://ichan.tw/courses/quant-finance-lab/
+    access:
+      en: Public
+      zh: 公開
+  - title:
+      en: Investment Management Applied Learning Lab
+      zh: 投資管理應用學習實驗室
+    description:
+      en: Course units, assignments, a final project, and progress tools for enrolled students.
+      zh: 提供修課學生課程單元、作業、期末專題與學習進度工具。
+    url: https://ichan.tw/investment_management
+    access:
+      en: Sign-in required for enrolled students
+      zh: 限修課學生登入
+    restricted: true
+  - title:
+      en: ML & Quantitative Finance Notebooks
+      zh: 機器學習與量化金融 Notebooks
+    description:
+      en: Open notebooks and code examples for computational finance learning.
+      zh: 用於計算金融學習的開放 notebooks 與程式範例。
+    url: https://github.com/ichanchiu/ml-quant-notebooks
+    access:
+      en: Public repository
+      zh: 公開儲存庫

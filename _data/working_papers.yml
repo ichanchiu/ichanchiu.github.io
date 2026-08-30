@@ -1,0 +1,66 @@
+- id: omni-finai
+  title: "Omni-FinAI: A Domain-Specific Large Language Model for Extracting Insights from Financial Disclosures"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+    - name: Zih-Ching Chen
+      short: Z.-C. Chen
+    - name: Jun-wei Chiu
+      short: J.-W. Chiu
+    - name: Yang-Hsien Lin
+      short: Y.-H. Lin
+    - name: Cheng-Kuang Lee
+      short: C.-K. Lee
+    - name: Eddie TC Huang
+      short: E. T. C. Huang
+    - name: Simon See
+      short: S. See
+  status:
+    en: Revise and Resubmit
+    zh: 修改後再審
+  venue: Review of Quantitative Finance and Accounting
+  venue_short: RQFA
+  featured: true
+  links:
+    - label: SSRN
+      url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5004298
+    - label: 70B model
+      label_zh: 70B 模型
+      url: https://huggingface.co/ichanchiu/Llama-3.1-Omni-FinAI-70B
+    - label: 8B model
+      label_zh: 8B 模型
+      url: https://huggingface.co/ichanchiu/Llama-3.1-Omni-FinAI-8B
+    - label: Dataset
+      label_zh: 資料集
+      url: https://huggingface.co/datasets/ichanchiu/Summarized_10K-MDA
+
+- id: deconstructing-risk
+  title: "Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Yi-Ta Huang
+      short: Y.-T. Huang
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+  status:
+    en: Working Paper
+    zh: 工作論文
+
+- id: semivariance-information
+  title: "Mispricing in Semivariance Information Discreteness"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Yi-Ta Huang
+      short: Y.-T. Huang
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+  status:
+    en: Working Paper
+    zh: 工作論文

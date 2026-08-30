@@ -1,0 +1,56 @@
+- id: svix-vix-crypto
+  title: "SVIX, VIX, and cryptocurrency market return"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+    - name: Kuang-Chieh Yen
+      short: K.-C. Yen
+  journal: The Quarterly Review of Economics and Finance
+  year: 2025
+  volume: "104"
+  article_number: "102055"
+  status:
+    en: Published
+    zh: 已出版
+  doi: 10.1016/j.qref.2025.102055
+  url: https://www.sciencedirect.com/science/article/pii/S1062976925000961
+
+- id: news-sentiment
+  title: "Firm-specific news sentiment and stock returns: the impact of relevance and time frames"
+  authors:
+    - name: Yi-Ta Huang
+      short: Y.-T. Huang
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+  journal: Applied Economics Letters
+  year: 2025
+  pages: 1–10
+  status:
+    en: Online first
+    zh: 線上先行出版
+  doi: 10.1080/13504851.2025.2522167
+  url: https://www.tandfonline.com/doi/full/10.1080/13504851.2025.2522167
+
+- id: finance-llm
+  title: "Finance-specific large language models: Advancing sentiment analysis and return prediction with LLaMA 2"
+  authors:
+    - name: I-Chan Chiu
+      short: I. Chiu
+      self: true
+    - name: Mao-Wei Hung
+      short: M.-W. Hung
+  journal: Pacific-Basin Finance Journal
+  year: 2025
+  volume: "90"
+  article_number: "102632"
+  status:
+    en: Published
+    zh: 已出版
+  doi: 10.1016/j.pacfin.2024.102632
+  url: https://www.sciencedirect.com/science/article/pii/S0927538X24003846

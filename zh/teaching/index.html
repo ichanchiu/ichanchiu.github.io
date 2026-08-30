@@ -1,0 +1,43 @@
+---
+layout: default
+lang: zh
+page_id: teaching
+title: 教學｜邱翊展
+description: 邱翊展在金融、人工智慧、機器學習與量化方法領域的課程及開放教學資源。
+alternate_url: /teaching/
+---
+{% include page-hero.html eyebrow="教學" title="理解概念、建立證據、做出決策。" intro="我將金融與人工智慧視為實作型學科，結合嚴謹概念、可執行模型與證據導向的決策。" %}
+
+<section class="section content-section" aria-labelledby="courses-heading">
+  <div class="shell split-heading">
+    <div>
+      <p class="eyebrow">課程</p>
+      <h2 id="courses-heading">金融與計算方法</h2>
+    </div>
+    <ol class="course-list">
+      {% for course in site.data.teaching.courses %}
+        <li><span>0{{ forloop.index }}</span>{{ course.zh }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section alternate-section" aria-labelledby="resources-heading">
+  <div class="shell">
+    <div class="section-intro section-intro-dark">
+      <p class="eyebrow">學習資源</p>
+      <h2 id="resources-heading">從解釋走向親手實作。</h2>
+      <p>透過互動實驗室、notebooks 與課程環境，讓量化概念能直接在瀏覽器中驗證。</p>
+    </div>
+    <div class="resource-grid">
+      {% for resource in site.data.teaching.resources %}
+        <article class="resource-card{% if resource.restricted %} resource-restricted{% endif %}">
+          <div class="resource-access">{{ resource.access.zh }}</div>
+          <h3>{{ resource.title.zh }}</h3>
+          <p>{{ resource.description.zh }}</p>
+          <a href="{{ resource.url }}">開啟資源 <span aria-hidden="true">↗</span></a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="{% if page.lang == 'zh' %}zh-Hant{% else %}en{% endif %}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#102b3f">
+    {% seo %}
+    <link rel="icon" href="{{ '/assets/icons/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.alternate_url %}
+      <link rel="alternate" hreflang="{% if page.lang == 'zh' %}en{% else %}zh-Hant{% endif %}" href="{{ page.alternate_url | absolute_url }}">
+    {% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "I-Chan Chiu",
+        "alternateName": "邱翊展",
+        "url": "{{ '/' | absolute_url }}",
+        "image": "{{ site.data.profile.portrait | absolute_url }}",
+        "jobTitle": "Assistant Professor of Economics",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Fu Jen Catholic University"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "National Taiwan University"
+        },
+        "email": "mailto:{{ site.data.profile.email }}",
+        "sameAs": [
+          "{{ site.data.profile.links.orcid }}",
+          "{{ site.data.profile.links.github }}",
+          "{{ site.data.profile.links.linkedin }}",
+          "{{ site.data.profile.links.huggingface }}",
+          "{{ site.data.profile.links.department_en }}"
+        ],
+        "knowsAbout": [
+          "Asset Pricing",
+          "Financial Economics",
+          "Financial Text Analysis",
+          "Large Language Models",
+          "Natural Language Processing",
+          "Interpretable Machine Learning"
+        ]
+      }
+    </script>
+  </head>
+  <body class="page-{{ page.page_id | default: 'home' }}">
+    <a class="skip-link" href="#main-content">{% if page.lang == 'zh' %}跳至主要內容{% else %}Skip to content{% endif %}</a>
+
+    {% assign is_zh = false %}
+    {% if page.lang == 'zh' %}{% assign is_zh = true %}{% endif %}
+    {% assign home_url = '/' %}
+    {% if is_zh %}{% assign home_url = '/zh/' %}{% endif %}
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="wordmark" href="{{ home_url | relative_url }}" aria-label="{% if is_zh %}邱翊展首頁{% else %}I-Chan Chiu home{% endif %}">
+          <span class="wordmark-monogram" aria-hidden="true">IC</span>
+          <span class="wordmark-name">{% if is_zh %}邱翊展{% else %}I-Chan Chiu{% endif %}</span>
+        </a>
+        <nav class="primary-nav" aria-label="{% if is_zh %}主要導覽{% else %}Primary navigation{% endif %}">
+          {% for item in site.data.navigation %}
+            {% capture item_url %}{% if is_zh %}/zh/{% endif %}{{ item.id }}/{% endcapture %}
+            <a href="{{ item_url | relative_url }}"{% if page.page_id == item.id %} aria-current="page"{% endif %}>{% if is_zh %}{{ item.label.zh }}{% else %}{{ item.label.en }}{% endif %}</a>
+          {% endfor %}
+        </nav>
+        <a class="language-switch" href="{{ page.alternate_url | default: '/zh/' | relative_url }}" hreflang="{% if is_zh %}en{% else %}zh-Hant{% endif %}">
+          {% if is_zh %}EN{% else %}中文{% endif %}
+        </a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <p class="footer-name">{% if is_zh %}邱翊展{% else %}I-Chan Chiu{% endif %}</p>
+          <p>{% if is_zh %}輔仁大學經濟學系助理教授{% else %}Assistant Professor of Economics, Fu Jen Catholic University{% endif %}</p>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+          <span>{% if is_zh %}{{ site.data.profile.office.zh }}{% else %}{{ site.data.profile.office.en }}{% endif %}</span>
+          <span>{% if is_zh %}{{ site.data.profile.phone.zh }}{% else %}{{ site.data.profile.phone.en }}{% endif %}</span>
+        </div>
+        <div class="footer-links" aria-label="{% if is_zh %}學術與專業連結{% else %}Academic and professional profiles{% endif %}">
+          <a href="{{ site.data.profile.links.orcid }}" rel="me">ORCID</a>
+          <a href="{{ site.data.profile.links.huggingface }}">Hugging Face</a>
+          <a href="{{ site.data.profile.links.github }}" rel="me">GitHub</a>
+          <a href="{{ site.data.profile.links.linkedin }}" rel="me">LinkedIn</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>&copy; {{ 'now' | date: '%Y' }} {% if is_zh %}邱翊展{% else %}I-Chan Chiu{% endif %}</span>
+        <span>{% if is_zh %}最後更新：{{ site.time | date: '%Y 年 %m 月' }}{% else %}Last updated {{ site.time | date: '%B %Y' }}{% endif %}</span>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+  </body>
+</html>

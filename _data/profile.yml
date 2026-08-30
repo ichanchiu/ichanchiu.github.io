@@ -1,0 +1,30 @@
+name:
+  en: I-Chan Chiu
+  zh: 邱翊展
+title:
+  en: Assistant Professor of Economics
+  zh: 經濟學系助理教授
+institution:
+  en: Fu Jen Catholic University
+  zh: 輔仁大學
+headline:
+  en: Asset Pricing, Financial Text, and Artificial Intelligence
+  zh: 資產定價、金融文本與人工智慧
+summary:
+  en: My research combines asset pricing and financial economics with large language models, natural language processing, and interpretable machine learning to study financial disclosures, market text, investor expectations, and risk, while exploring practical applications in financial decision-making.
+  zh: 我的研究結合資產定價與金融經濟學，運用大型語言模型、自然語言處理與可解釋機器學習，研究金融揭露、市場文本、投資人預期與風險，並探索其在金融決策中的實際應用。
+portrait: /assets/images/i-chan-chiu.webp
+email: icchiu@mail.fju.edu.tw
+phone:
+  en: +886-2-2905-2707
+  zh: 02-2905-2707
+office:
+  en: Room SL326, Loyola Building
+  zh: 羅耀拉大樓三樓 SL326
+links:
+  orcid: https://orcid.org/0009-0004-5275-2981
+  github: https://github.com/ichanchiu
+  linkedin: https://linkedin.com/in/ichanchiu
+  huggingface: https://huggingface.co/ichanchiu
+  department_en: https://www.economics.fju.edu.tw/en/copy-of-lin-hsieh-yu/
+  department_zh: https://www.economics.fju.edu.tw/%E8%A4%87%E8%A3%BD%E4%BE%86%E6%BA%90%EF%BC%9A-%E9%99%B3%E9%9F%8B%E9%81%94/

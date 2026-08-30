@@ -1,0 +1,20 @@
+{% assign is_zh = false %}{% if include.lang == 'zh' %}{% assign is_zh = true %}{% endif %}
+<ol class="publication-list">
+  {% for paper in site.data.publications %}
+    <li class="publication-item" id="{{ paper.id }}">
+      <div class="publication-year" aria-hidden="true">{{ paper.year }}</div>
+      <article>
+        <div class="publication-meta">
+          <span class="status-badge">{% if is_zh %}{{ paper.status.zh }}{% else %}{{ paper.status.en }}{% endif %}</span>
+        </div>
+        <h3>{{ paper.title }}</h3>
+        <p class="authors">{% include authors.html authors=paper.authors %}</p>
+        <p class="citation"><em>{{ paper.journal }}</em>{% if paper.volume %}, {{ paper.volume }}{% endif %}{% if paper.pages %}, {{ paper.pages }}{% endif %}{% if paper.article_number %}, {{ paper.article_number }}{% endif %} ({{ paper.year }}).</p>
+        <div class="text-links">
+          <a href="{{ paper.url }}">{% if is_zh %}出版社頁面{% else %}Publisher page{% endif %} <span aria-hidden="true">↗</span></a>
+          <a href="https://doi.org/{{ paper.doi }}">DOI <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </li>
+  {% endfor %}
+</ol>

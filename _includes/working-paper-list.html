@@ -1,0 +1,23 @@
+{% assign is_zh = false %}{% if include.lang == 'zh' %}{% assign is_zh = true %}{% endif %}
+<ol class="publication-list working-list">
+  {% for paper in site.data.working_papers %}
+    <li class="publication-item" id="{{ paper.id }}">
+      <div class="publication-mark" aria-hidden="true">0{{ forloop.index }}</div>
+      <article>
+        <div class="publication-meta">
+          <span class="status-badge">{% if is_zh %}{{ paper.status.zh }}{% else %}{{ paper.status.en }}{% endif %}{% if paper.venue_short %} · {{ paper.venue_short }}{% endif %}</span>
+        </div>
+        <h3>{{ paper.title }}</h3>
+        <p class="authors">{% include authors.html authors=paper.authors %}</p>
+        {% if paper.venue %}<p class="citation"><em>{{ paper.venue }}</em>.</p>{% endif %}
+        {% if paper.links %}
+          <div class="text-links">
+            {% for link in paper.links %}
+              <a href="{{ link.url }}">{% if is_zh and link.label_zh %}{{ link.label_zh }}{% else %}{{ link.label }}{% endif %} <span aria-hidden="true">↗</span></a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    </li>
+  {% endfor %}
+</ol>

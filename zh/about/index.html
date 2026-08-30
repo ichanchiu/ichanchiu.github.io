@@ -1,0 +1,76 @@
+---
+layout: default
+lang: zh
+page_id: about
+title: 關於我｜邱翊展
+description: 邱翊展的個人簡介、學歷、學術經歷與聯絡資訊。
+alternate_url: /about/
+---
+{% include page-hero.html eyebrow="關於我" title="金融、經濟與計算。" intro="邱翊展現任輔仁大學經濟學系助理教授。" %}
+
+<section class="section content-section">
+  <div class="shell bio-grid">
+    <div class="bio-portrait">
+      <img src="{{ site.data.profile.portrait | relative_url }}" alt="邱翊展正式肖像" width="794" height="794">
+    </div>
+    <div class="prose bio-copy">
+      <p>我的研究涵蓋實證資產定價、金融文本與金融人工智慧，關注市場資訊、金融揭露與風險如何轉化為投資人預期及資產報酬。</p>
+      <p>我的訓練背景橫跨財務金融、經濟與資訊工程，因此研究方法也結合經濟問題、自然語言處理、金融領域大型語言模型與可解釋機器學習。</p>
+      <p>我也持續開發投資、量化金融、機器學習與人工智慧相關的實作型教學資源。</p>
+      <div class="bio-actions">
+        <button class="button button-secondary" type="button" data-print>列印／另存 PDF</button>
+        <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">寄信給我</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alternate-section" aria-labelledby="appointments-heading">
+  <div class="shell timeline-grid">
+    <div>
+      <p class="eyebrow">學術經歷</p>
+      <h2 id="appointments-heading">任職經歷</h2>
+    </div>
+    <div class="timeline">
+      {% for appointment in site.data.appointments %}
+        <article class="timeline-item">
+          <p class="timeline-period">{{ appointment.period.zh }}</p>
+          <h3>{{ appointment.institution.zh }}{{ appointment.title.zh }}</h3>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section content-section" aria-labelledby="education-heading">
+  <div class="shell timeline-grid">
+    <div>
+      <p class="eyebrow">學歷</p>
+      <h2 id="education-heading">跨領域訓練</h2>
+    </div>
+    <div class="timeline">
+      {% for item in site.data.education %}
+        <article class="timeline-item">
+          <p class="timeline-period">{{ item.year }}</p>
+          <h3>{{ item.institution.zh }}{{ item.degree.zh }}</h3>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" aria-labelledby="contact-heading">
+  <div class="shell contact-grid">
+    <div>
+      <p class="eyebrow">聯絡方式</p>
+      <h2 id="contact-heading">歡迎與我聯絡</h2>
+      <p>歡迎就研究合作、學術交流，以及金融與人工智慧的產業應用進行討論。</p>
+    </div>
+    <address class="contact-card">
+      <div><span>Email</span><a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></div>
+      <div><span>辦公室</span><p>{{ site.data.profile.office.zh }}</p></div>
+      <div><span>電話</span><a href="tel:+886229052707">{{ site.data.profile.phone.zh }}</a></div>
+      <div><span>官方個人頁</span><a href="{{ site.data.profile.links.department_zh }}">輔仁大學經濟學系 <span aria-hidden="true">↗</span></a></div>
+    </address>
+  </div>
+</section>

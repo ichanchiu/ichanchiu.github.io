@@ -1,0 +1,55 @@
+---
+layout: default
+lang: en
+page_id: research
+title: Research | I-Chan Chiu
+description: Research by I-Chan Chiu on asset pricing, financial text, investor expectations, and artificial intelligence for finance.
+alternate_url: /zh/research/
+---
+{% include page-hero.html eyebrow="Research" title="Questions in finance. Evidence from data and language." intro="My research connects empirical asset pricing with financial text and modern artificial intelligence. The common goal is to understand how information becomes expectations, risk, and market prices." %}
+
+<section class="section content-section">
+  <div class="shell research-detail-list">
+    {% for area in site.data.research %}
+      <article class="research-detail" id="{{ area.id }}">
+        <div class="research-index">{{ area.number }}</div>
+        <div>
+          <h2>{{ area.title.en }}</h2>
+          <p class="research-lead">{{ area.summary.en }}</p>
+          <ul class="topic-list">
+            {% for topic in area.topics.en %}<li>{{ topic }}</li>{% endfor %}
+          </ul>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section grant-section" aria-labelledby="grants-heading">
+  <div class="shell split-heading">
+    <div>
+      <p class="eyebrow">Funded research</p>
+      <h2 id="grants-heading">National Science and Technology Council projects</h2>
+    </div>
+    <div class="grant-list">
+      {% for grant in site.data.grants %}
+        <article class="grant-item">
+          <div class="grant-year">NSTC {{ grant.year }}</div>
+          <div>
+            <h3>{{ grant.title.en }}</h3>
+            <p>{{ grant.role.en }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section research-bridge">
+  <div class="shell callout">
+    <p class="eyebrow">Collaboration</p>
+    <h2>Interested in research at the intersection of finance and AI?</h2>
+    <p>I welcome conversations with academic collaborators and industry teams working on financial data, language models, explainability, and market applications.</p>
+    <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">Start a conversation</a>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+title: I-Chan Chiu
+description: Academic website of I-Chan Chiu — asset pricing, financial text, and artificial intelligence.
+url: "https://ichanchiu.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Taipei
+author:
+  name: I-Chan Chiu
+  url: https://ichanchiu.github.io
+logo: /assets/images/i-chan-chiu.webp
+image:
+  path: /assets/images/og.png
+  width: 1200
+  height: 630
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/og.png
+        width: 1200
+        height: 630
+social:
+  name: I-Chan Chiu
+  links:
+    - https://orcid.org/0009-0004-5275-2981
+    - https://github.com/ichanchiu
+    - https://linkedin.com/in/ichanchiu
+    - https://huggingface.co/ichanchiu
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle

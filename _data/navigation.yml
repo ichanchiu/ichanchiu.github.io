@@ -1,0 +1,16 @@
+- id: research
+  label:
+    en: Research
+    zh: 研究
+- id: publications
+  label:
+    en: Publications
+    zh: 論著
+- id: teaching
+  label:
+    en: Teaching
+    zh: 教學
+- id: about
+  label:
+    en: About
+    zh: 關於我

@@ -1,0 +1,76 @@
+---
+layout: default
+lang: zh
+page_id: home
+title: 邱翊展｜資產定價、金融文本與人工智慧
+description: 輔仁大學經濟學系助理教授邱翊展的學術網站，研究資產定價、金融文本與人工智慧。
+alternate_url: /
+---
+{% assign profile = site.data.profile %}
+{% assign omni = site.data.working_papers | where: "id", "omni-finai" | first %}
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">輔仁大學 · 經濟學系助理教授</p>
+      <h1>{{ profile.name.zh }}</h1>
+      <p class="hero-headline">{{ profile.headline.zh }}</p>
+      <p class="hero-summary">{{ profile.summary.zh }}</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="{{ '/zh/research/' | relative_url }}">探索我的研究</a>
+        <a class="button button-secondary" href="{{ '/zh/publications/' | relative_url }}">查看研究成果</a>
+      </div>
+      <div class="identity-links" aria-label="學術身分連結">
+        <a href="{{ profile.links.orcid }}" rel="me">ORCID</a>
+        <a href="{{ profile.links.huggingface }}">Hugging Face</a>
+        <a href="{{ profile.links.github }}" rel="me">GitHub</a>
+      </div>
+    </div>
+    <figure class="portrait-wrap">
+      <div class="portrait-frame">
+        <img src="{{ profile.portrait | relative_url }}" alt="邱翊展正式肖像" width="794" height="794" fetchpriority="high">
+      </div>
+      <figcaption>
+        <span>{{ profile.title.zh }}</span>
+        <span>{{ profile.institution.zh }}</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section research-overview" aria-labelledby="research-heading">
+  <div class="shell">
+    <div class="section-intro">
+      <p class="eyebrow">研究主軸</p>
+      <h2 id="research-heading">從金融問題出發，以資料與語言尋找證據。</h2>
+      <p>我研究資訊、預期與風險如何反映於資產價格，並探索現代人工智慧如何讓金融證據更實用、更容易解釋。</p>
+    </div>
+    <div class="pillar-grid">
+      {% for area in site.data.research %}
+        <article class="pillar-card">
+          <span class="pillar-number">{{ area.number }}</span>
+          <h3>{{ area.title.zh }}</h3>
+          <p>{{ area.summary.zh }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section featured-work" aria-labelledby="featured-heading">
+  <div class="shell feature-panel">
+    <div class="feature-label">
+      <p class="eyebrow">代表性研究</p>
+      <span class="status-badge">{{ omni.status.zh }} · {{ omni.venue_short }}</span>
+    </div>
+    <div class="feature-content">
+      <h2 id="featured-heading">{{ omni.title }}</h2>
+      <p class="authors">{% include authors.html authors=omni.authors %}</p>
+      <p>以金融領域大型語言模型為核心，串連學術研究、開放模型與金融揭露資料。</p>
+      <div class="text-links">
+        {% for link in omni.links %}
+          {% unless link.label == 'Dataset' %}<a href="{{ link.url }}">{% if link.label_zh %}{{ link.label_zh }}{% else %}{{ link.label }}{% endif %} <span aria-hidden="true">↗</span></a>{% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
