@@ -1,1 +1,1 @@
-{% for author in include.authors %}{% if author.self %}<strong>{{ author.short }}</strong>{% else %}{{ author.short }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}
+{% for author in include.authors %}{% if author.self %}<strong>{{ author.short }}</strong>{% else %}{{ author.short }}{% endif %}{% unless forloop.last %}{% if forloop.length == 2 %} and {% elsif forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}{% endfor %}

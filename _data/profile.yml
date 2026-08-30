@@ -8,18 +8,18 @@ institution:
   en: Fu Jen Catholic University
   zh: 輔仁大學
 headline:
-  en: Asset Pricing, Financial Text, and Artificial Intelligence
-  zh: 資產定價、金融文本與人工智慧
+  en: Asset Pricing, Textual Analysis, and AI in Finance
+  zh: 資產定價、金融文本分析與金融人工智慧
 summary:
-  en: My research combines asset pricing and financial economics with large language models, natural language processing, and interpretable machine learning to study financial disclosures, market text, investor expectations, and risk, while exploring practical applications in financial decision-making.
-  zh: 我的研究結合資產定價與金融經濟學，運用大型語言模型、自然語言處理與可解釋機器學習，研究金融揭露、市場文本、投資人預期與風險，並探索其在金融決策中的實際應用。
+  en: I study asset pricing, investor expectations, financial disclosures, and risk using natural language processing, large language models, and interpretable machine learning. My work spans empirical financial economics and applied AI in finance.
+  zh: 我研究資產定價、投資人預期、金融揭露與風險，並運用自然語言處理、大型語言模型及可解釋機器學習進行實證分析；研究橫跨金融經濟學與金融人工智慧。
 portrait: /assets/images/i-chan-chiu.webp
 email: icchiu@mail.fju.edu.tw
 phone:
   en: +886-2-2905-2707
   zh: 02-2905-2707
 office:
-  en: Room SL326, Loyola Building
+  en: Room SL326, 3F, Loyola Building
   zh: 羅耀拉大樓三樓 SL326
 links:
   orcid: https://orcid.org/0009-0004-5275-2981

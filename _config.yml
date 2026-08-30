@@ -1,5 +1,5 @@
 title: I-Chan Chiu
-description: Academic website of I-Chan Chiu — asset pricing, financial text, and artificial intelligence.
+description: Academic website of I-Chan Chiu — asset pricing, textual analysis, and artificial intelligence in finance.
 url: "https://ichanchiu.github.io"
 baseurl: ""
 lang: en
@@ -7,7 +7,6 @@ timezone: Asia/Taipei
 author:
   name: I-Chan Chiu
   url: https://ichanchiu.github.io
-logo: /assets/images/i-chan-chiu.webp
 image:
   path: /assets/images/og.png
   width: 1200
@@ -35,6 +34,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - EDITING_GUIDE.md
   - README.md
   - vendor
   - .bundle

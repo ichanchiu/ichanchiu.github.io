@@ -2,25 +2,22 @@
 layout: default
 lang: zh
 page_id: about
-title: 關於我｜邱翊展
+title: 關於我
 description: 邱翊展的個人簡介、學歷、學術經歷與聯絡資訊。
 alternate_url: /about/
 ---
-{% include page-hero.html eyebrow="關於我" title="金融、經濟與計算。" intro="邱翊展現任輔仁大學經濟學系助理教授。" %}
+{% include page-hero.html eyebrow="關於我" title="個人簡介" intro="邱翊展現任輔仁大學經濟學系助理教授。" %}
 
 <section class="section content-section">
-  <div class="shell bio-grid">
-    <div class="bio-portrait">
-      <img src="{{ site.data.profile.portrait | relative_url }}" alt="邱翊展正式肖像" width="794" height="794">
+  <div class="shell bio-grid bio-grid-text">
+    <div class="bio-intro">
+      <p class="eyebrow">研究簡介</p>
+      <h2>研究與教學</h2>
     </div>
     <div class="prose bio-copy">
-      <p>我的研究涵蓋實證資產定價、金融文本與金融人工智慧，關注市場資訊、金融揭露與風險如何轉化為投資人預期及資產報酬。</p>
+      <p>我的研究涵蓋實證資產定價、金融文本分析與金融人工智慧，關注市場資訊、金融揭露與風險如何轉化為投資人預期及資產報酬。</p>
       <p>我的訓練背景橫跨財務金融、經濟與資訊工程，因此研究方法也結合經濟問題、自然語言處理、金融領域大型語言模型與可解釋機器學習。</p>
       <p>我也持續開發投資、量化金融、機器學習與人工智慧相關的實作型教學資源。</p>
-      <div class="bio-actions">
-        <button class="button button-secondary" type="button" data-print>列印／另存 PDF</button>
-        <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">寄信給我</a>
-      </div>
     </div>
   </div>
 </section>
@@ -35,7 +32,8 @@ alternate_url: /about/
       {% for appointment in site.data.appointments %}
         <article class="timeline-item">
           <p class="timeline-period">{{ appointment.period.zh }}</p>
-          <h3>{{ appointment.institution.zh }}{{ appointment.title.zh }}</h3>
+          <h3>{{ appointment.title.zh }}</h3>
+          <p>{{ appointment.institution.zh }}</p>
         </article>
       {% endfor %}
     </div>
@@ -52,7 +50,8 @@ alternate_url: /about/
       {% for item in site.data.education %}
         <article class="timeline-item">
           <p class="timeline-period">{{ item.year }}</p>
-          <h3>{{ item.institution.zh }}{{ item.degree.zh }}</h3>
+          <h3>{{ item.degree.zh }}</h3>
+          <p>{{ item.institution.zh }}</p>
         </article>
       {% endfor %}
     </div>

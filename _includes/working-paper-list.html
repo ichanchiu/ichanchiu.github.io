@@ -1,6 +1,8 @@
 {% assign is_zh = false %}{% if include.lang == 'zh' %}{% assign is_zh = true %}{% endif %}
+{% assign papers = site.data.working_papers %}
+{% if include.section %}{% assign papers = papers | where: "section", include.section %}{% endif %}
 <ol class="publication-list working-list">
-  {% for paper in site.data.working_papers %}
+  {% for paper in papers %}
     <li class="publication-item" id="{{ paper.id }}">
       <div class="publication-mark" aria-hidden="true">0{{ forloop.index }}</div>
       <article>

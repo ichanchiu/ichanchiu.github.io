@@ -19,8 +19,8 @@
 - id: financial-text
   number: "02"
   title:
-    en: Financial Text & Investor Expectations
-    zh: 金融文本與投資人預期
+    en: Textual Analysis in Finance & Investor Expectations
+    zh: 金融文本分析與投資人預期
   summary:
     en: I study how relevance, time horizon, uncertainty, and language in disclosures and market news influence investor expectations and return predictability.
     zh: 我分析企業揭露與市場新聞中的攸關性、時間尺度、不確定性與語言特徵，如何影響投資人預期與報酬可預測性。
@@ -40,8 +40,8 @@
     en: Artificial Intelligence for Finance
     zh: 金融人工智慧
   summary:
-    en: I develop and evaluate domain-specific language models and interpretable machine-learning methods that turn complex financial evidence into decision-relevant signals.
-    zh: 我開發並評估金融領域大型語言模型與可解釋機器學習方法，將複雜的金融資訊轉化為與決策相關的訊號。
+    en: I develop and evaluate domain-specific language models and interpretable machine-learning methods for analyzing financial disclosures, market text, and prediction tasks.
+    zh: 我開發並評估金融領域大型語言模型與可解釋機器學習方法，用於分析金融揭露、市場文本與預測問題。
   topics:
     en:
       - Finance-specific large language models

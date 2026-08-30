@@ -10,10 +10,12 @@
         <h3>{{ paper.title }}</h3>
         <p class="authors">{% include authors.html authors=paper.authors %}</p>
         <p class="citation"><em>{{ paper.journal }}</em>{% if paper.volume %}, {{ paper.volume }}{% endif %}{% if paper.pages %}, {{ paper.pages }}{% endif %}{% if paper.article_number %}, {{ paper.article_number }}{% endif %} ({{ paper.year }}).</p>
-        <div class="text-links">
-          <a href="{{ paper.url }}">{% if is_zh %}出版社頁面{% else %}Publisher page{% endif %} <span aria-hidden="true">↗</span></a>
-          <a href="https://doi.org/{{ paper.doi }}">DOI <span aria-hidden="true">↗</span></a>
-        </div>
+        {% if paper.url or paper.doi %}
+          <div class="text-links">
+            {% if paper.url %}<a href="{{ paper.url }}">{% if is_zh %}出版社頁面{% else %}Publisher page{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+        {% endif %}
       </article>
     </li>
   {% endfor %}

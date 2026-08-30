@@ -2,11 +2,11 @@
 layout: default
 lang: en
 page_id: research
-title: Research | I-Chan Chiu
-description: Research by I-Chan Chiu on asset pricing, financial text, investor expectations, and artificial intelligence for finance.
+title: Research
+description: Research by I-Chan Chiu on asset pricing, textual analysis, investor expectations, and artificial intelligence in finance.
 alternate_url: /zh/research/
 ---
-{% include page-hero.html eyebrow="Research" title="Questions in finance. Evidence from data and language." intro="My research connects empirical asset pricing with financial text and modern artificial intelligence. The common goal is to understand how information becomes expectations, risk, and market prices." %}
+{% include page-hero.html eyebrow="Research" title="Research interests" intro="My research covers empirical asset pricing, textual analysis in finance, investor expectations, and the development and evaluation of artificial intelligence methods for financial research." %}
 
 <section class="section content-section">
   <div class="shell research-detail-list">
@@ -34,7 +34,7 @@ alternate_url: /zh/research/
     <div class="grant-list">
       {% for grant in site.data.grants %}
         <article class="grant-item">
-          <div class="grant-year">NSTC {{ grant.year }}</div>
+          <div class="grant-year">NSTC {{ grant.year_en }}</div>
           <div>
             <h3>{{ grant.title.en }}</h3>
             <p>{{ grant.role.en }}</p>
@@ -42,14 +42,5 @@ alternate_url: /zh/research/
         </article>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="section research-bridge">
-  <div class="shell callout">
-    <p class="eyebrow">Collaboration</p>
-    <h2>Interested in research at the intersection of finance and AI?</h2>
-    <p>I welcome conversations with academic collaborators and industry teams working on financial data, language models, explainability, and market applications.</p>
-    <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">Start a conversation</a>
   </div>
 </section>

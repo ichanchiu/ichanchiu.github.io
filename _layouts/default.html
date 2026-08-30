@@ -3,14 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#102b3f">
+    <meta name="theme-color" content="#ffffff">
     {% seo %}
     <link rel="icon" href="{{ '/assets/icons/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     {% if page.alternate_url %}
-      <link rel="alternate" hreflang="{% if page.lang == 'zh' %}en{% else %}zh-Hant{% endif %}" href="{{ page.alternate_url | absolute_url }}">
+      {% if page.lang == 'zh' %}
+        <link rel="alternate" hreflang="en" href="{{ page.alternate_url | absolute_url }}">
+        <link rel="alternate" hreflang="zh-Hant" href="{{ page.url | absolute_url }}">
+        <link rel="alternate" hreflang="x-default" href="{{ page.alternate_url | absolute_url }}">
+      {% else %}
+        <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+        <link rel="alternate" hreflang="zh-Hant" href="{{ page.alternate_url | absolute_url }}">
+        <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+      {% endif %}
+    {% else %}
+      <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+      <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
     {% endif %}
-    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -18,7 +28,6 @@
         "name": "I-Chan Chiu",
         "alternateName": "邱翊展",
         "url": "{{ '/' | absolute_url }}",
-        "image": "{{ site.data.profile.portrait | absolute_url }}",
         "jobTitle": "Assistant Professor of Economics",
         "affiliation": {
           "@type": "CollegeOrUniversity",
@@ -39,7 +48,7 @@
         "knowsAbout": [
           "Asset Pricing",
           "Financial Economics",
-          "Financial Text Analysis",
+          "Textual Analysis in Finance",
           "Large Language Models",
           "Natural Language Processing",
           "Interpretable Machine Learning"

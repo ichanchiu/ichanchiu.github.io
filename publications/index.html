@@ -2,11 +2,11 @@
 layout: default
 lang: en
 page_id: publications
-title: Publications | I-Chan Chiu
-description: Journal articles and working papers by I-Chan Chiu in asset pricing, financial text, and artificial intelligence.
+title: Publications
+description: Journal articles, papers under review, and working papers by I-Chan Chiu in asset pricing, textual analysis, and artificial intelligence in finance.
 alternate_url: /zh/publications/
 ---
-{% include page-hero.html eyebrow="Publications" title="Research outputs" intro="Journal articles and ongoing work across empirical asset pricing, financial text, machine learning, and finance-specific language models." %}
+{% include page-hero.html eyebrow="Publications" title="Research papers" intro="Journal articles and ongoing research in empirical asset pricing, textual analysis, machine learning, and finance-specific language models." %}
 
 <section class="section content-section" aria-labelledby="journal-heading">
   <div class="shell list-section">
@@ -18,12 +18,41 @@ alternate_url: /zh/publications/
   </div>
 </section>
 
-<section class="section alternate-section" aria-labelledby="working-heading">
+{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
+{% if under_review.size > 0 %}
+<section class="section alternate-section" aria-labelledby="review-heading">
   <div class="shell list-section">
     <div class="list-heading">
-      <p class="eyebrow">In progress</p>
-      <h2 id="working-heading">Working papers</h2>
+      <p class="eyebrow">Editorial process</p>
+      <h2 id="review-heading">Under review</h2>
     </div>
-    {% include working-paper-list.html lang="en" %}
+    {% include working-paper-list.html lang="en" section="under-review" %}
   </div>
 </section>
+{% endif %}
+
+{% assign working = site.data.working_papers | where: "section", "working-paper" %}
+{% if working.size > 0 %}
+<section class="section content-section" aria-labelledby="working-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Ongoing research</p>
+      <h2 id="working-heading">Working papers</h2>
+    </div>
+    {% include working-paper-list.html lang="en" section="working-paper" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
+{% if in_progress.size > 0 %}
+<section class="section alternate-section" aria-labelledby="progress-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Early-stage work</p>
+      <h2 id="progress-heading">Research in progress</h2>
+    </div>
+    {% include working-paper-list.html lang="en" section="research-in-progress" %}
+  </div>
+</section>
+{% endif %}

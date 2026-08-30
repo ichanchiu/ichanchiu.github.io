@@ -2,11 +2,11 @@
 layout: default
 lang: zh
 page_id: research
-title: 研究｜邱翊展
-description: 邱翊展在資產定價、金融文本、投資人預期與金融人工智慧領域的研究。
+title: 研究
+description: 邱翊展在資產定價、金融文本分析、投資人預期與金融人工智慧領域的研究。
 alternate_url: /research/
 ---
-{% include page-hero.html eyebrow="研究" title="金融問題，資料與語言的證據。" intro="我的研究連結實證資產定價、金融文本與現代人工智慧，共同目標是理解資訊如何轉化為預期、風險與市場價格。" %}
+{% include page-hero.html eyebrow="研究" title="研究領域" intro="我的研究涵蓋實證資產定價、金融文本分析、投資人預期，以及金融人工智慧方法的開發與評估。" %}
 
 <section class="section content-section">
   <div class="shell research-detail-list">
@@ -34,7 +34,7 @@ alternate_url: /research/
     <div class="grant-list">
       {% for grant in site.data.grants %}
         <article class="grant-item">
-          <div class="grant-year">國科會 {{ grant.year }} 年度</div>
+          <div class="grant-year">國科會 {{ grant.year_zh }}</div>
           <div>
             <h3>{{ grant.title.zh }}</h3>
             <p>{{ grant.role.zh }}</p>
@@ -42,14 +42,5 @@ alternate_url: /research/
         </article>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="section research-bridge">
-  <div class="shell callout">
-    <p class="eyebrow">研究合作</p>
-    <h2>關注金融與人工智慧交會的研究嗎？</h2>
-    <p>歡迎學術合作者與產業團隊，就金融資料、語言模型、可解釋性與市場應用交流。</p>
-    <a class="button button-primary" href="mailto:{{ site.data.profile.email }}">與我聯絡</a>
   </div>
 </section>

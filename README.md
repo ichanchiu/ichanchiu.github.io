@@ -2,6 +2,8 @@
 
 Bilingual academic website for [ichanchiu.github.io](https://ichanchiu.github.io), built with Jekyll and hosted on GitHub Pages.
 
+For step-by-step editing instructions in Traditional Chinese, see [EDITING_GUIDE.md](EDITING_GUIDE.md).
+
 ## Content updates
 
 Most updates only require editing one structured data file:

@@ -1,4 +1,6 @@
 - year: "115"
+  year_en: "2026"
+  year_zh: "民國 115（2026）"
   role:
     en: Principal Investigator
     zh: 計畫主持人
@@ -7,6 +9,8 @@
     zh: 動態資產定價中的可解釋人工智慧：基於機器學習可解釋性的時變因子重要性研究
 
 - year: "114"
+  year_en: "2025"
+  year_zh: "民國 114（2025）"
   role:
     en: Principal Investigator
     zh: 計畫主持人

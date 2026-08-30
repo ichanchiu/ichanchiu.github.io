@@ -2,11 +2,11 @@
 layout: default
 lang: zh
 page_id: publications
-title: 論著｜邱翊展
-description: 邱翊展在資產定價、金融文本、機器學習與金融大型語言模型領域的期刊論文與工作論文。
+title: 論著
+description: 邱翊展在資產定價、金融文本分析、機器學習與金融大型語言模型領域的期刊論文、審查中論文與工作論文。
 alternate_url: /publications/
 ---
-{% include page-hero.html eyebrow="論著" title="研究成果" intro="涵蓋實證資產定價、金融文本、機器學習與金融領域大型語言模型的期刊論文及進行中研究。" %}
+{% include page-hero.html eyebrow="論著" title="研究論文" intro="涵蓋實證資產定價、金融文本分析、機器學習與金融領域大型語言模型的期刊論文及進行中研究。" %}
 
 <section class="section content-section" aria-labelledby="journal-heading">
   <div class="shell list-section">
@@ -18,12 +18,41 @@ alternate_url: /publications/
   </div>
 </section>
 
-<section class="section alternate-section" aria-labelledby="working-heading">
+{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
+{% if under_review.size > 0 %}
+<section class="section alternate-section" aria-labelledby="review-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">期刊審查</p>
+      <h2 id="review-heading">審查中論文</h2>
+    </div>
+    {% include working-paper-list.html lang="zh" section="under-review" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign working = site.data.working_papers | where: "section", "working-paper" %}
+{% if working.size > 0 %}
+<section class="section content-section" aria-labelledby="working-heading">
   <div class="shell list-section">
     <div class="list-heading">
       <p class="eyebrow">進行中研究</p>
       <h2 id="working-heading">工作論文</h2>
     </div>
-    {% include working-paper-list.html lang="zh" %}
+    {% include working-paper-list.html lang="zh" section="working-paper" %}
   </div>
 </section>
+{% endif %}
+
+{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
+{% if in_progress.size > 0 %}
+<section class="section alternate-section" aria-labelledby="progress-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">早期研究</p>
+      <h2 id="progress-heading">進行中研究</h2>
+    </div>
+    {% include working-paper-list.html lang="zh" section="research-in-progress" %}
+  </div>
+</section>
+{% endif %}

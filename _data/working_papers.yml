@@ -1,4 +1,5 @@
 - id: omni-finai
+  section: under-review
   title: "Omni-FinAI: A Domain-Specific Large Language Model for Extracting Insights from Financial Disclosures"
   authors:
     - name: I-Chan Chiu
@@ -38,6 +39,7 @@
       url: https://huggingface.co/datasets/ichanchiu/Summarized_10K-MDA
 
 - id: deconstructing-risk
+  section: working-paper
   title: "Deconstructing Risk: A Moment-Based Aumann–Serrano Riskiness Approximation and the Left-Tail Risk Premium"
   authors:
     - name: I-Chan Chiu
@@ -52,6 +54,7 @@
     zh: 工作論文
 
 - id: semivariance-information
+  section: working-paper
   title: "Mispricing in Semivariance Information Discreteness"
   authors:
     - name: I-Chan Chiu
