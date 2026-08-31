@@ -57,7 +57,7 @@
 - `authors`：作者清單；`short` 統一使用「名字一個字母＋姓氏」，例如 `I. Chiu`、`M. Hung`，自己的作者資料請保留 `self: true`。
 - `journal`、`year`、`volume`、`pages` 或 `article_number`：出版資訊；沒有的欄位可省略，不要填假的占位內容。
 - `status.en`、`status.zh`：英文與中文出版狀態。
-- `doi`、`url`：有正式資料時再填；尚未有 DOI 時可省略。
+- `doi`、`url`：有 DOI 時，網站只顯示 DOI；`url` 保留作為沒有 DOI 時的出版社頁面備援。尚未有正式資料時可省略。
 - `links`：選用的作者稿、資料、程式碼或模型連結，例如 `Author manuscript (PDF)`、`Dataset`、`Code`、`Model`。PDF 建議放在 `assets/papers/`；請勿上傳出版社排版版，除非該版本的開放授權明確允許公開分享。
 
 ### 3. 工作論文：`_data/working_papers.yml`
