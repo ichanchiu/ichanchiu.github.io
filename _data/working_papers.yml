@@ -37,7 +37,7 @@
 
 - id: riskiness
   section: working-paper
-  title: "AS Riskiness and Entropy"
+  title: "Aumann–Serrano Riskiness and Entropy"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
@@ -69,7 +69,7 @@
 
 - id: fundllm
   section: working-paper
-  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-Based Evidence from New Mutual Fund"
+  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-Based Evidence from New Mutual Funds"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
