@@ -38,6 +38,7 @@
 - `title`：職稱。
 - `institution`：服務學校。
 - `headline`：首頁主要研究標語。
+- `research_statement`：首頁的個人研究主線，建議維持一至兩句並同步更新中英文。
 - `summary`：個人研究簡介。
 - `portrait`：保留給未來更換照片使用；目前版面刻意不顯示照片。之後若要啟用，請先上傳新照片並確認版型。
 - `email`、`phone`、`office`：聯絡資訊。
@@ -53,10 +54,11 @@
 
 - `id`：網站內部識別碼，必須唯一；建議只用小寫英文字母、數字與連字號，例如 `text-risk-2026`。
 - `title`：論文題名。
-- `authors`：作者清單；自己的作者資料請保留 `self: true`。
+- `authors`：作者清單；`short` 統一使用「名字一個字母＋姓氏」，例如 `I. Chiu`、`M. Hung`，自己的作者資料請保留 `self: true`。
 - `journal`、`year`、`volume`、`pages` 或 `article_number`：出版資訊；沒有的欄位可省略，不要填假的占位內容。
 - `status.en`、`status.zh`：英文與中文出版狀態。
 - `doi`、`url`：有正式資料時再填；尚未有 DOI 時可省略。
+- `links`：選用的資料、程式碼或模型連結，例如 `Dataset`、`Code`、`Model`。
 
 ### 3. 工作論文：`_data/working_papers.yml`
 
@@ -67,6 +69,8 @@
 - `research-in-progress`：尚在早期階段或題名未定的研究。
 
 `venue`、`venue_short` 與 `links` 都是選用欄位；沒有資料時可完全省略。
+
+網站目前將 `working-paper` 區段的作者暫按英文姓氏字母順序排列；已投稿、審查中與修改後再審的稿件，則保留實際投稿作者序。最終作者序確定後，請直接依定稿順序調整完整的 `authors` 區塊。
 
 #### 安全的新增範例
 

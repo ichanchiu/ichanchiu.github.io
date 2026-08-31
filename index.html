@@ -13,6 +13,7 @@ alternate_url: /zh/
       <p class="role-line">Assistant Professor of Economics · Fu Jen Catholic University</p>
       <h1>{{ profile.name.en }}</h1>
       <p class="intro-headline">{{ profile.headline.en }}</p>
+      <p class="research-statement">{{ profile.research_statement.en }}</p>
       <p class="intro-summary">{{ profile.summary.en }}</p>
       <div class="intro-links" aria-label="Contact and academic profiles">
         <a href="mailto:{{ profile.email }}">Email</a>
@@ -22,7 +23,7 @@ alternate_url: /zh/
       </div>
     </div>
     <aside class="focus-summary" aria-labelledby="focus-heading">
-      <h2 id="focus-heading">Research focus</h2>
+      <h2 id="focus-heading">Research thread</h2>
       <ul>
         {% for area in site.data.research %}<li>{{ area.title.en }}</li>{% endfor %}
       </ul>

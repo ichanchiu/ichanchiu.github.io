@@ -5,9 +5,9 @@
       short: I. Chiu
       self: true
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
     - name: Kuang-Chieh Yen
-      short: K.-C. Yen
+      short: K. Yen
   journal: The Quarterly Review of Economics and Finance
   year: 2025
   volume: "104"
@@ -22,12 +22,12 @@
   title: "Firm-specific news sentiment and stock returns: the impact of relevance and time frames"
   authors:
     - name: Yi-Ta Huang
-      short: Y.-T. Huang
+      short: Y. Huang
     - name: I-Chan Chiu
       short: I. Chiu
       self: true
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
   journal: Applied Economics Letters
   year: 2025
   pages: 1–10
@@ -45,7 +45,7 @@
       short: I. Chiu
       self: true
     - name: Mao-Wei Hung
-      short: M.-W. Hung
+      short: M. Hung
   journal: Pacific-Basin Finance Journal
   year: 2025
   volume: "90"
@@ -55,3 +55,7 @@
     zh: 已出版
   doi: 10.1016/j.pacfin.2024.102632
   url: https://www.sciencedirect.com/science/article/pii/S0927538X24003846
+  links:
+    - label: Dataset
+      label_zh: 資料集
+      url: https://huggingface.co/datasets/ichanchiu/Summarized_10K-MDA

@@ -70,6 +70,7 @@
         <a class="wordmark" href="{{ home_url | relative_url }}" aria-label="{% if is_zh %}邱翊展首頁{% else %}I-Chan Chiu home{% endif %}">
           <span class="wordmark-monogram" aria-hidden="true">IC</span>
           <span class="wordmark-name">{% if is_zh %}邱翊展{% else %}I-Chan Chiu{% endif %}</span>
+          <span class="wordmark-alt" aria-hidden="true">{% if is_zh %}I-Chan Chiu{% else %}邱翊展{% endif %}</span>
         </a>
         <nav class="primary-nav" aria-label="{% if is_zh %}主要導覽{% else %}Primary navigation{% endif %}">
           {% for item in site.data.navigation %}

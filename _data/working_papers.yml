@@ -16,7 +16,7 @@
     - name: Cheng-Kuang Lee
       short: C. Lee
     - name: Eddie TC Huang
-      short: E. T. Huang
+      short: E. Huang
     - name: Simon See
       short: S. See
   status:
@@ -34,9 +34,6 @@
     - label: 8B model
       label_zh: 8B 模型
       url: https://huggingface.co/ichanchiu/Llama-3.1-Omni-FinAI-8B
-    - label: Dataset
-      label_zh: 資料集
-      url: https://huggingface.co/datasets/ichanchiu/Summarized_10K-MDA
 
 - id: riskiness
   section: working-paper
@@ -67,12 +64,12 @@
     - name: Mao-Wei Hung
       short: M. Hung
   status:
-    en: Working Paper
-    zh: 工作論文
-    
+    en: Under Review
+    zh: 審查中
+
 - id: fundllm
   section: working-paper
-  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-based Evidence From New Mutual Fund"
+  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-Based Evidence from New Mutual Fund"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
@@ -86,6 +83,7 @@
   status:
     en: Working Paper
     zh: 工作論文
+
 - id: attrition-latency
   section: working-paper
   title: "Attrition and Latency"
@@ -93,18 +91,19 @@
     - name: I-Chan Chiu
       short: I. Chiu
       self: true
-    - name: Chi-Yen Lin
-      short: C. Lin
     - name: Yi-Ta Huang
       short: Y. Huang
+    - name: Chi-Yen Lin
+      short: C. Lin
     - name: Chia-Yi Yen
       short: C. Yen
   status:
     en: Working Paper
     zh: 工作論文
+
 - id: ptt
   section: under-review
-  title: "Revealed Fragility: Large Language Modelsand the Pricing of Retail Stock Recommendations"
+  title: "Revealed Fragility: Large Language Models and the Pricing of Retail Stock Recommendations"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
@@ -112,5 +111,5 @@
     - name: Yi-Ta Huang
       short: Y. Huang
   status:
-    en: Working Paper
-    zh: 工作論文
+    en: Under Review
+    zh: 審查中

@@ -13,6 +13,7 @@ alternate_url: /
       <p class="role-line">輔仁大學 · 經濟學系助理教授</p>
       <h1>{{ profile.name.zh }}</h1>
       <p class="intro-headline">{{ profile.headline.zh }}</p>
+      <p class="research-statement">{{ profile.research_statement.zh }}</p>
       <p class="intro-summary">{{ profile.summary.zh }}</p>
       <div class="intro-links" aria-label="聯絡方式與學術身分連結">
         <a href="mailto:{{ profile.email }}">Email</a>
@@ -22,7 +23,7 @@ alternate_url: /
       </div>
     </div>
     <aside class="focus-summary" aria-labelledby="focus-heading">
-      <h2 id="focus-heading">研究領域</h2>
+      <h2 id="focus-heading">研究主線</h2>
       <ul>
         {% for area in site.data.research %}<li>{{ area.title.zh }}</li>{% endfor %}
       </ul>
