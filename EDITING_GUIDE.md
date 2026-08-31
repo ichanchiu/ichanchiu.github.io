@@ -58,7 +58,7 @@
 - `journal`、`year`、`volume`、`pages` 或 `article_number`：出版資訊；沒有的欄位可省略，不要填假的占位內容。
 - `status.en`、`status.zh`：英文與中文出版狀態。
 - `doi`、`url`：有正式資料時再填；尚未有 DOI 時可省略。
-- `links`：選用的資料、程式碼或模型連結，例如 `Dataset`、`Code`、`Model`。
+- `links`：選用的作者稿、資料、程式碼或模型連結，例如 `Author manuscript (PDF)`、`Dataset`、`Code`、`Model`。PDF 建議放在 `assets/papers/`；請勿上傳出版社排版版，除非該版本的開放授權明確允許公開分享。
 
 ### 3. 工作論文：`_data/working_papers.yml`
 
