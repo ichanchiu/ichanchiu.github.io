@@ -22,8 +22,11 @@ Each record stores English and Traditional Chinese fields together so both langu
 
 - `/` — English home
 - `/zh/` — Traditional Chinese home
-- `/research/`, `/publications/`, `/teaching/`, `/about/`
-- `/zh/research/`, `/zh/publications/`, `/zh/teaching/`, `/zh/about/`
+- `/research/` — English research areas, journal articles, and ongoing papers
+- `/zh/research/` — Traditional Chinese research areas, journal articles, and ongoing papers
+- `/teaching/`, `/about/`, `/zh/teaching/`, `/zh/about/`
+
+The former `/publications/` and `/zh/publications/` URLs remain as redirects so existing bookmarks continue to work.
 
 ## Local preview
 

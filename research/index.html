@@ -3,12 +3,12 @@ layout: default
 lang: en
 page_id: research
 title: Research
-description: Research by I-Chan Chiu on asset pricing, textual analysis, investor expectations, and artificial intelligence in finance.
+description: Research areas, journal articles, and working papers by I-Chan Chiu in asset pricing, financial language, and artificial intelligence in finance.
 alternate_url: /zh/research/
 ---
-{% include page-hero.html eyebrow="Research" title="Research interests" intro="My research covers empirical asset pricing, textual analysis in finance, investor expectations, and the development and evaluation of artificial intelligence methods for financial research." %}
+{% include page-hero.html eyebrow="Research" title="Research" intro="My research covers empirical asset pricing, textual analysis in finance, investor expectations, and the development and evaluation of artificial intelligence methods for financial research." %}
 
-<section class="section content-section">
+<section class="section content-section" id="research-areas" aria-label="Research areas">
   <div class="shell research-detail-list">
     {% for area in site.data.research %}
       <article class="research-detail" id="{{ area.id }}">
@@ -25,22 +25,52 @@ alternate_url: /zh/research/
   </div>
 </section>
 
-<section class="section grant-section" aria-labelledby="grants-heading">
-  <div class="shell split-heading">
-    <div>
-      <p class="eyebrow">Funded research</p>
-      <h2 id="grants-heading">National Science and Technology Council projects</h2>
+<section class="section alternate-section" id="publications" aria-labelledby="journal-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Peer-reviewed</p>
+      <h2 id="journal-heading">Journal articles</h2>
     </div>
-    <div class="grant-list">
-      {% for grant in site.data.grants %}
-        <article class="grant-item">
-          <div class="grant-year">NSTC {{ grant.year_en }}</div>
-          <div>
-            <h3>{{ grant.title.en }}</h3>
-            <p>{{ grant.role.en }}</p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+    {% include publication-list.html lang="en" %}
   </div>
 </section>
+
+{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
+{% if under_review.size > 0 %}
+<section class="section content-section" id="under-review" aria-labelledby="review-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Editorial process</p>
+      <h2 id="review-heading">Under review</h2>
+    </div>
+    {% include working-paper-list.html lang="en" section="under-review" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign working = site.data.working_papers | where: "section", "working-paper" %}
+{% if working.size > 0 %}
+<section class="section alternate-section" id="working-papers" aria-labelledby="working-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Ongoing research</p>
+      <h2 id="working-heading">Working papers</h2>
+      <p class="section-note">Author order is provisional and listed alphabetically by surname.</p>
+    </div>
+    {% include working-paper-list.html lang="en" section="working-paper" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
+{% if in_progress.size > 0 %}
+<section class="section content-section" id="research-in-progress" aria-labelledby="progress-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">Early-stage work</p>
+      <h2 id="progress-heading">Research in progress</h2>
+    </div>
+    {% include working-paper-list.html lang="en" section="research-in-progress" %}
+  </div>
+</section>
+{% endif %}

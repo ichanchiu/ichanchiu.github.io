@@ -2,41 +2,41 @@
   <title id="title">Converging research signals</title>
   <desc id="description">An abstract diagram showing market-price, financial-language, and artificial-intelligence signals converging into an asset-pricing insight.</desc>
 
-  <path d="M32 292C65 194 107 69 239 42C367 15 507 91 525 193C541 286 441 358 312 354C184 350 4 373 32 292Z" fill="#dfe8fb" opacity="0.62"/>
+  <path d="M32 292C65 194 107 69 239 42C367 15 507 91 525 193C541 286 441 358 312 354C184 350 4 373 32 292Z" fill="#e4eaf4" opacity="0.82"/>
 
-  <g fill="none" stroke="#111827" stroke-width="1.5" opacity="0.08">
+  <g fill="none" stroke="#141b2a" stroke-width="1.5" opacity="0.08">
     <circle cx="426" cy="195" r="58"/>
     <circle cx="426" cy="195" r="86"/>
     <circle cx="426" cy="195" r="114"/>
   </g>
 
-  <path d="M44 103C80 113 93 82 128 98C164 115 174 72 211 87C239 98 250 121 277 127C319 137 340 159 385 185" fill="none" stroke="#2457d6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-  <g fill="#ffffff" stroke="#2457d6" stroke-width="2.5">
+  <path d="M44 103C80 113 93 82 128 98C164 115 174 72 211 87C239 98 250 121 277 127C319 137 340 159 385 185" fill="none" stroke="#1b3158" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <g fill="#fcfdfe" stroke="#1b3158" stroke-width="2.5">
     <circle cx="128" cy="98" r="5"/>
     <circle cx="211" cy="87" r="5"/>
     <circle cx="277" cy="127" r="5"/>
   </g>
 
-  <g fill="#526071" opacity="0.72">
+  <g fill="#5c6678" opacity="0.72">
     <rect x="44" y="174" width="152" height="5" rx="2.5"/>
     <rect x="44" y="194" width="198" height="5" rx="2.5"/>
     <rect x="44" y="214" width="126" height="5" rx="2.5"/>
     <rect x="44" y="234" width="174" height="5" rx="2.5"/>
   </g>
-  <g fill="none" stroke="#526071" stroke-linecap="round" stroke-width="2" opacity="0.45">
+  <g fill="none" stroke="#5c6678" stroke-linecap="round" stroke-width="2" opacity="0.45">
     <path d="M196 176C268 177 313 178 385 191"/>
     <path d="M242 196C298 196 331 194 385 194"/>
     <path d="M170 216C258 216 310 211 385 199"/>
     <path d="M218 236C282 227 330 214 385 202"/>
   </g>
 
-  <g fill="none" stroke="#809ee8" stroke-width="2">
+  <g fill="none" stroke="#19a7a5" stroke-width="2">
     <path d="M71 307L125 274L185 307L238 270L283 309"/>
     <path d="M125 274L137 334L185 307L203 343L283 309"/>
     <path d="M238 270L283 309L329 269L385 205"/>
     <path d="M283 309L329 269"/>
   </g>
-  <g fill="#eef3ff" stroke="#2457d6" stroke-width="2.5">
+  <g fill="#ddf2f1" stroke="#087f83" stroke-width="2.5">
     <circle cx="71" cy="307" r="7"/>
     <circle cx="125" cy="274" r="7"/>
     <circle cx="137" cy="334" r="7"/>
@@ -47,8 +47,8 @@
     <circle cx="329" cy="269" r="7"/>
   </g>
 
-  <path d="M385 185C397 189 406 192 415 194" fill="none" stroke="#e45e52" stroke-linecap="round" stroke-width="3"/>
-  <circle cx="426" cy="195" r="22" fill="#ffffff" opacity="0.92"/>
-  <circle cx="426" cy="195" r="13" fill="#e45e52"/>
-  <circle cx="426" cy="195" r="4" fill="#ffffff"/>
+  <path d="M385 185C397 189 406 192 415 194" fill="none" stroke="#19a7a5" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="426" cy="195" r="22" fill="#fcfdfe" opacity="0.92"/>
+  <circle cx="426" cy="195" r="13" fill="#087f83"/>
+  <circle cx="426" cy="195" r="4" fill="#fcfdfe"/>
 </svg>

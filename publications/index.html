@@ -1,59 +1,28 @@
 ---
-layout: default
-lang: en
-page_id: publications
-title: Publications
-description: Journal articles, papers under review, and working papers by I-Chan Chiu in asset pricing, textual analysis, and artificial intelligence in finance.
-alternate_url: /zh/publications/
+layout: null
+permalink: /publications/
+sitemap: false
 ---
-{% include page-hero.html eyebrow="Publications" title="Research papers" intro="Journal articles and ongoing research in empirical asset pricing, textual analysis, machine learning, and finance-specific language models." %}
-
-<section class="section content-section" aria-labelledby="journal-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Peer-reviewed</p>
-      <h2 id="journal-heading">Journal articles</h2>
-    </div>
-    {% include publication-list.html lang="en" %}
-  </div>
-</section>
-
-{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
-{% if under_review.size > 0 %}
-<section class="section alternate-section" aria-labelledby="review-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Editorial process</p>
-      <h2 id="review-heading">Under review</h2>
-    </div>
-    {% include working-paper-list.html lang="en" section="under-review" %}
-  </div>
-</section>
-{% endif %}
-
-{% assign working = site.data.working_papers | where: "section", "working-paper" %}
-{% if working.size > 0 %}
-<section class="section content-section" aria-labelledby="working-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Ongoing research</p>
-      <h2 id="working-heading">Working papers</h2>
-      <p class="section-note">Author order is provisional and listed alphabetically by surname.</p>
-    </div>
-    {% include working-paper-list.html lang="en" section="working-paper" %}
-  </div>
-</section>
-{% endif %}
-
-{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
-{% if in_progress.size > 0 %}
-<section class="section alternate-section" aria-labelledby="progress-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Early-stage work</p>
-      <h2 id="progress-heading">Research in progress</h2>
-    </div>
-    {% include working-paper-list.html lang="en" section="research-in-progress" %}
-  </div>
-</section>
-{% endif %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ '/research/#publications' | relative_url }}">
+    <link rel="canonical" href="{{ '/research/' | absolute_url }}">
+    <title>Research | I-Chan Chiu</title>
+    <script>
+      (function () {
+        var hash = window.location.hash || "#publications";
+        window.location.replace("{{ '/research/' | relative_url }}" + hash);
+      }());
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>Publications have moved</h1>
+      <p>Publications are now part of <a href="{{ '/research/#publications' | relative_url }}">Research</a>.</p>
+    </main>
+  </body>
+</html>

@@ -53,7 +53,7 @@ alternate_url: /
                 {% endfor %}
               </div>
             {% endif %}
-            <a class="feature-all" href="{{ '/zh/publications/' | relative_url }}">查看全部研究論文 →</a>
+            <a class="feature-all" href="{{ '/zh/research/#publications' | relative_url }}">查看全部研究論文 →</a>
           </div>
         </aside>
       {% endif %}
@@ -89,12 +89,31 @@ alternate_url: /
   </div>
 </section>
 
+<section class="home-section funded-section" aria-labelledby="grants-heading">
+  <div class="shell home-section-grid">
+    <div class="home-section-heading">
+      <p class="section-label">02 / 研究計畫</p>
+      <h2 id="grants-heading">國科會計畫</h2>
+      <p class="section-note">國家科學及技術委員會</p>
+    </div>
+    <div class="home-grant-list">
+      {% for grant in site.data.grants %}
+        <article class="home-grant-item">
+          <p class="grant-year">{{ grant.year_zh }}</p>
+          <h3>{{ grant.title.zh }}</h3>
+          <p>{{ grant.role.zh }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="home-section recent-section" aria-labelledby="recent-heading">
   <div class="shell home-section-grid">
     <div class="home-section-heading">
-      <p class="section-label">02 / 論著</p>
+      <p class="section-label">03 / 研究成果</p>
       <h2 id="recent-heading">近期期刊論文</h2>
-      <a href="{{ '/zh/publications/' | relative_url }}">查看全部論著 →</a>
+      <a href="{{ '/zh/research/#publications' | relative_url }}">查看全部論著 →</a>
     </div>
     <ol class="recent-publication-list">
       {% for paper in site.data.publications limit: 3 %}

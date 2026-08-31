@@ -1,59 +1,28 @@
 ---
-layout: default
-lang: zh
-page_id: publications
-title: 論著
-description: 邱翊展在資產定價、金融文本分析、機器學習與金融大型語言模型領域的期刊論文、審查中論文與工作論文。
-alternate_url: /publications/
+layout: null
+permalink: /zh/publications/
+sitemap: false
 ---
-{% include page-hero.html eyebrow="論著" title="研究論文" intro="涵蓋實證資產定價、金融文本分析、機器學習與金融領域大型語言模型的期刊論文及進行中研究。" %}
-
-<section class="section content-section" aria-labelledby="journal-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">同儕審查</p>
-      <h2 id="journal-heading">期刊論文</h2>
-    </div>
-    {% include publication-list.html lang="zh" %}
-  </div>
-</section>
-
-{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
-{% if under_review.size > 0 %}
-<section class="section alternate-section" aria-labelledby="review-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">期刊審查</p>
-      <h2 id="review-heading">審查中論文</h2>
-    </div>
-    {% include working-paper-list.html lang="zh" section="under-review" %}
-  </div>
-</section>
-{% endif %}
-
-{% assign working = site.data.working_papers | where: "section", "working-paper" %}
-{% if working.size > 0 %}
-<section class="section content-section" aria-labelledby="working-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">進行中研究</p>
-      <h2 id="working-heading">工作論文</h2>
-      <p class="section-note">作者順序暫按英文姓氏字母排列，最終順序以定稿為準。</p>
-    </div>
-    {% include working-paper-list.html lang="zh" section="working-paper" %}
-  </div>
-</section>
-{% endif %}
-
-{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
-{% if in_progress.size > 0 %}
-<section class="section alternate-section" aria-labelledby="progress-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">早期研究</p>
-      <h2 id="progress-heading">進行中研究</h2>
-    </div>
-    {% include working-paper-list.html lang="zh" section="research-in-progress" %}
-  </div>
-</section>
-{% endif %}
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ '/zh/research/#publications' | relative_url }}">
+    <link rel="canonical" href="{{ '/zh/research/' | absolute_url }}">
+    <title>研究｜邱翊展</title>
+    <script>
+      (function () {
+        var hash = window.location.hash || "#publications";
+        window.location.replace("{{ '/zh/research/' | relative_url }}" + hash);
+      }());
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>論著頁面已整合</h1>
+      <p>論著已整合至<a href="{{ '/zh/research/#publications' | relative_url }}">研究頁面</a>。</p>
+    </main>
+  </body>
+</html>

@@ -53,7 +53,7 @@ alternate_url: /zh/
                 {% endfor %}
               </div>
             {% endif %}
-            <a class="feature-all" href="{{ '/publications/' | relative_url }}">All research papers →</a>
+            <a class="feature-all" href="{{ '/research/#publications' | relative_url }}">All research papers →</a>
           </div>
         </aside>
       {% endif %}
@@ -89,12 +89,31 @@ alternate_url: /zh/
   </div>
 </section>
 
+<section class="home-section funded-section" aria-labelledby="grants-heading">
+  <div class="shell home-section-grid">
+    <div class="home-section-heading">
+      <p class="section-label">02 / Funded research</p>
+      <h2 id="grants-heading">NSTC projects</h2>
+      <p class="section-note">National Science and Technology Council</p>
+    </div>
+    <div class="home-grant-list">
+      {% for grant in site.data.grants %}
+        <article class="home-grant-item">
+          <p class="grant-year">NSTC {{ grant.year_en }}</p>
+          <h3>{{ grant.title.en }}</h3>
+          <p>{{ grant.role.en }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="home-section recent-section" aria-labelledby="recent-heading">
   <div class="shell home-section-grid">
     <div class="home-section-heading">
-      <p class="section-label">02 / Publications</p>
+      <p class="section-label">03 / Research output</p>
       <h2 id="recent-heading">Recent journal articles</h2>
-      <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+      <a href="{{ '/research/#publications' | relative_url }}">All publications →</a>
     </div>
     <ol class="recent-publication-list">
       {% for paper in site.data.publications limit: 3 %}

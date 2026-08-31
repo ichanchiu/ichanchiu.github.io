@@ -3,12 +3,12 @@ layout: default
 lang: zh
 page_id: research
 title: 研究
-description: 邱翊展在資產定價、金融文本分析、投資人預期與金融人工智慧領域的研究。
+description: 邱翊展在資產定價、金融語言與金融人工智慧領域的研究主題、期刊論文與工作論文。
 alternate_url: /research/
 ---
-{% include page-hero.html eyebrow="研究" title="研究領域" intro="我的研究涵蓋實證資產定價、金融文本分析、投資人預期，以及金融人工智慧方法的開發與評估。" %}
+{% include page-hero.html eyebrow="研究" title="研究" intro="我的研究涵蓋實證資產定價、金融文本分析、投資人預期，以及金融人工智慧方法的開發與評估。" %}
 
-<section class="section content-section">
+<section class="section content-section" id="research-areas" aria-label="研究領域">
   <div class="shell research-detail-list">
     {% for area in site.data.research %}
       <article class="research-detail" id="{{ area.id }}">
@@ -25,22 +25,52 @@ alternate_url: /research/
   </div>
 </section>
 
-<section class="section grant-section" aria-labelledby="grants-heading">
-  <div class="shell split-heading">
-    <div>
-      <p class="eyebrow">研究計畫</p>
-      <h2 id="grants-heading">國家科學及技術委員會計畫</h2>
+<section class="section alternate-section" id="publications" aria-labelledby="journal-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">同儕審查</p>
+      <h2 id="journal-heading">期刊論文</h2>
     </div>
-    <div class="grant-list">
-      {% for grant in site.data.grants %}
-        <article class="grant-item">
-          <div class="grant-year">國科會 {{ grant.year_zh }}</div>
-          <div>
-            <h3>{{ grant.title.zh }}</h3>
-            <p>{{ grant.role.zh }}</p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
+    {% include publication-list.html lang="zh" %}
   </div>
 </section>
+
+{% assign under_review = site.data.working_papers | where: "section", "under-review" %}
+{% if under_review.size > 0 %}
+<section class="section content-section" id="under-review" aria-labelledby="review-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">期刊審查</p>
+      <h2 id="review-heading">審查中論文</h2>
+    </div>
+    {% include working-paper-list.html lang="zh" section="under-review" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign working = site.data.working_papers | where: "section", "working-paper" %}
+{% if working.size > 0 %}
+<section class="section alternate-section" id="working-papers" aria-labelledby="working-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">進行中研究</p>
+      <h2 id="working-heading">工作論文</h2>
+      <p class="section-note">作者順序暫按英文姓氏字母排列，最終順序以定稿為準。</p>
+    </div>
+    {% include working-paper-list.html lang="zh" section="working-paper" %}
+  </div>
+</section>
+{% endif %}
+
+{% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
+{% if in_progress.size > 0 %}
+<section class="section content-section" id="research-in-progress" aria-labelledby="progress-heading">
+  <div class="shell list-section">
+    <div class="list-heading">
+      <p class="eyebrow">早期研究</p>
+      <h2 id="progress-heading">進行中研究</h2>
+    </div>
+    {% include working-paper-list.html lang="zh" section="research-in-progress" %}
+  </div>
+</section>
+{% endif %}

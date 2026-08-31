@@ -2,6 +2,22 @@ document.querySelectorAll("[data-print]").forEach((button) => {
   button.addEventListener("click", () => window.print());
 });
 
+const languageSwitch = document.querySelector(".language-switch");
+
+if (languageSwitch && window.location.hash) {
+  const alternatePage = new URL(languageSwitch.href, window.location.href);
+  alternatePage.hash = window.location.hash;
+  languageSwitch.href = alternatePage.href;
+}
+
+const isLegacyGrantAnchor = window.location.hash === "#grants-heading"
+  && /\/(?:zh\/)?research\/$/.test(window.location.pathname);
+
+if (isLegacyGrantAnchor) {
+  const homePath = window.location.pathname.startsWith("/zh/") ? "/zh/" : "/";
+  window.location.replace(`${homePath}#grants-heading`);
+}
+
 document.querySelectorAll("a[href]").forEach((link) => {
   let destination;
 

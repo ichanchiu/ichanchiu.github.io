@@ -8,7 +8,7 @@ author:
   name: I-Chan Chiu
   url: https://ichanchiu.github.io
 image:
-  path: /assets/images/og.png
+  path: /assets/images/og-v2.png
   width: 1200
   height: 630
 defaults:
@@ -16,7 +16,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/images/og.png
+        path: /assets/images/og-v2.png
         width: 1200
         height: 630
 social:

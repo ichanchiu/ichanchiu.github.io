@@ -2,10 +2,6 @@
   label:
     en: Research
     zh: 研究
-- id: publications
-  label:
-    en: Publications
-    zh: 論著
 - id: teaching
   label:
     en: Teaching
