@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#f7f9fc">
     <title>I-Chan Chiu (邱翊展)</title>
     {% seo title=false %}
     {% capture asset_version %}{{ site.time | date: '%Y%m%d%H%M%S' }}{% endcapture %}
@@ -100,12 +100,12 @@
           <span>{% if is_zh %}{{ site.data.profile.office.zh }}{% else %}{{ site.data.profile.office.en }}{% endif %}</span>
           <span>{% if is_zh %}{{ site.data.profile.phone.zh }}{% else %}{{ site.data.profile.phone.en }}{% endif %}</span>
         </div>
-        <div class="footer-links" aria-label="{% if is_zh %}學術與專業連結{% else %}Academic and professional profiles{% endif %}">
+        <nav class="footer-links" aria-label="{% if is_zh %}學術與專業連結{% else %}Academic and professional profiles{% endif %}">
           <a href="{{ site.data.profile.links.orcid }}" rel="me">ORCID</a>
           <a href="{{ site.data.profile.links.huggingface }}">Hugging Face</a>
           <a href="{{ site.data.profile.links.github }}" rel="me">GitHub</a>
           <a href="{{ site.data.profile.links.linkedin }}" rel="me">LinkedIn</a>
-        </div>
+        </nav>
       </div>
       <div class="shell footer-bottom">
         <span>&copy; {{ 'now' | date: '%Y' }} {% if is_zh %}邱翊展{% else %}I-Chan Chiu{% endif %}</span>

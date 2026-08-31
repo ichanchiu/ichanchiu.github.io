@@ -13,6 +13,7 @@
 | `_data/working_papers.yml` | 工作論文、投稿狀態、合著者與論文／模型／資料連結 |
 | `_data/research.yml` | 研究領域、研究摘要與主題關鍵字 |
 | `_data/teaching.yml` | 授課科目與教學資源連結 |
+| `assets/images/research-signal.svg` | 首頁右側的抽象研究訊號插圖；通常不需要修改 |
 
 其他履歷內容也採同樣方式管理，例如 `_data/appointments.yml`、`_data/education.yml` 與 `_data/grants.yml`。
 
@@ -37,8 +38,7 @@
 - `name`：姓名。
 - `title`：職稱。
 - `institution`：服務學校。
-- `headline`：首頁主要研究標語。
-- `research_statement`：首頁的個人研究主線，建議維持一至兩句並同步更新中英文。
+- `research_statement`：首頁的主要研究命題，建議維持一至兩句並同步更新中英文。
 - `summary`：個人研究簡介。
 - `portrait`：保留給未來更換照片使用；目前版面刻意不顯示照片。之後若要啟用，請先上傳新照片並確認版型。
 - `email`、`phone`、`office`：聯絡資訊。
@@ -69,6 +69,8 @@
 - `research-in-progress`：尚在早期階段或題名未定的研究。
 
 `venue`、`venue_short` 與 `links` 都是選用欄位；沒有資料時可完全省略。
+
+`featured: true` 會讓該篇論文出現在首頁的「近期論文／Current paper」區塊。建議同一時間只設定一篇；要更換焦點時，請將舊論文的 `featured: true` 刪除，再加到新論文。
 
 網站目前將 `working-paper` 區段的作者暫按英文姓氏字母順序排列；已投稿、審查中與修改後再審的稿件，則保留實際投稿作者序。最終作者序確定後，請直接依定稿順序調整完整的 `authors` 區塊。
 
@@ -136,6 +138,7 @@
 - `id`：唯一的小寫英文識別碼。
 - `number`：畫面上的排序編號，建議保留引號，例如 `"01"`，避免前面的 0 消失。
 - `title`：中英文研究領域名稱。
+- `signal_title`：首頁「研究訊號」節點使用的簡短中英文名稱。
 - `summary`：中英文簡介。
 - `topics`：中英文關鍵字清單。
 

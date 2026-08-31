@@ -2,41 +2,80 @@
 layout: default
 lang: en
 page_id: home
-title: Asset Pricing, Textual Analysis, and AI in Finance
-description: I-Chan Chiu is an Assistant Professor of Economics at Fu Jen Catholic University researching asset pricing, textual analysis, and artificial intelligence in finance.
+title: Asset Pricing, Financial Language, and AI in Finance
+description: I-Chan Chiu is an Assistant Professor of Economics at Fu Jen Catholic University researching asset pricing, financial language, and artificial intelligence in finance.
 alternate_url: /zh/
 ---
 {% assign profile = site.data.profile %}
-<section class="academic-intro">
-  <div class="shell academic-intro-grid">
-    <div>
-      <p class="role-line">Assistant Professor of Economics · Fu Jen Catholic University</p>
-      <h1>{{ profile.name.en }}</h1>
-      <p class="intro-headline">{{ profile.headline.en }}</p>
-      <p class="research-statement">{{ profile.research_statement.en }}</p>
-      <p class="intro-summary">{{ profile.summary.en }}</p>
-      <div class="intro-links" aria-label="Contact and academic profiles">
-        <a href="mailto:{{ profile.email }}">Email</a>
-        <a href="{{ profile.links.orcid }}" rel="me">ORCID</a>
-        <a href="{{ profile.links.huggingface }}">Hugging Face</a>
-        <a href="{{ profile.links.github }}" rel="me">GitHub</a>
+{% assign featured_papers = site.data.working_papers | where: "featured", true %}
+{% assign featured_paper = featured_papers.first %}
+
+<section class="research-desk">
+  <div class="shell">
+    <div class="research-desk-grid{% unless featured_paper %} research-desk-grid-single{% endunless %}">
+      <div class="desk-intro">
+        <h1 class="desk-name">
+          <span class="desk-name-primary">{{ profile.name.en }}</span>
+          <span class="desk-name-alt" lang="zh-Hant">{{ profile.name.zh }}</span>
+        </h1>
+        <p class="role-line">{{ profile.title.en }} · {{ profile.institution.en }}</p>
+        <p class="research-statement">{{ profile.research_statement.en }}</p>
+        <p class="intro-summary">{{ profile.summary.en }}</p>
+        <nav class="intro-links" aria-label="Contact and academic profiles">
+          <a href="mailto:{{ profile.email }}">Email <span aria-hidden="true">↗</span></a>
+          <a href="{{ profile.links.orcid }}" rel="me">ORCID <span aria-hidden="true">↗</span></a>
+          <a href="{{ profile.links.huggingface }}">Hugging Face <span aria-hidden="true">↗</span></a>
+          <a href="{{ profile.links.github }}" rel="me">GitHub <span aria-hidden="true">↗</span></a>
+        </nav>
       </div>
+
+      <figure class="desk-visual">
+        <img src="{{ '/assets/images/research-signal.svg' | relative_url }}" alt="" width="560" height="390">
+        <figcaption>Market prices <span aria-hidden="true">·</span> Financial language <span aria-hidden="true">·</span> AI signals</figcaption>
+      </figure>
+
+      {% if featured_paper %}
+        <aside class="desk-feature" aria-labelledby="focus-heading">
+          <div class="desk-feature-heading">
+            <p class="section-label">Current paper</p>
+            <span>{{ featured_paper.status.en }}</span>
+          </div>
+          <div class="desk-feature-copy">
+            <h2 id="focus-heading">{{ featured_paper.title }}</h2>
+            <p class="authors">{% include authors.html authors=featured_paper.authors %}</p>
+            {% if featured_paper.venue %}<p class="feature-venue">{{ featured_paper.venue }}</p>{% endif %}
+          </div>
+          <div class="desk-feature-actions">
+            {% if featured_paper.links %}
+              <div class="feature-links">
+                {% for link in featured_paper.links limit: 3 %}
+                  <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+                {% endfor %}
+              </div>
+            {% endif %}
+            <a class="feature-all" href="{{ '/publications/' | relative_url }}">All research papers →</a>
+          </div>
+        </aside>
+      {% endif %}
     </div>
-    <aside class="focus-summary" aria-labelledby="focus-heading">
-      <h2 id="focus-heading">Research thread</h2>
-      <ul>
-        {% for area in site.data.research %}<li>{{ area.title.en }}</li>{% endfor %}
-      </ul>
-      <a href="{{ '/research/' | relative_url }}">Research overview →</a>
-    </aside>
+
+    <nav class="signal-map" aria-label="Research areas">
+      {% for area in site.data.research %}
+        <a class="signal-node" href="{{ '/research/' | append: '#' | append: area.id | relative_url }}">
+          <span class="signal-number">{{ area.number }}</span>
+          <span>{{ area.signal_title.en }}</span>
+        </a>
+      {% endfor %}
+    </nav>
   </div>
 </section>
 
 <section class="home-section" aria-labelledby="research-heading">
   <div class="shell home-section-grid">
     <div class="home-section-heading">
-      <p class="section-label">Research</p>
-      <h2 id="research-heading">Research interests</h2>
+      <p class="section-label">01 / Research</p>
+      <h2 id="research-heading">Research lenses</h2>
+      <a href="{{ '/research/' | relative_url }}">Research overview →</a>
     </div>
     <div class="plain-research-list">
       {% for area in site.data.research %}
@@ -53,7 +92,7 @@ alternate_url: /zh/
 <section class="home-section recent-section" aria-labelledby="recent-heading">
   <div class="shell home-section-grid">
     <div class="home-section-heading">
-      <p class="section-label">Publications</p>
+      <p class="section-label">02 / Publications</p>
       <h2 id="recent-heading">Recent journal articles</h2>
       <a href="{{ '/publications/' | relative_url }}">All publications →</a>
     </div>
