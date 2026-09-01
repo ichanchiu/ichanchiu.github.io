@@ -11,7 +11,6 @@ Most updates only require editing one structured data file:
 - `_data/profile.yml` — identity, contact information, and profile links
 - `_data/publications.yml` — published journal articles
 - `_data/working_papers.yml` — working papers, status, authors, and research links
-- `_data/research.yml` — research areas
 - `_data/grants.yml` — funded research projects
 - `_data/teaching.yml` — courses and teaching resources
 - `_data/education.yml` and `_data/appointments.yml` — online CV
@@ -22,8 +21,8 @@ Each record stores English and Traditional Chinese fields together so both langu
 
 - `/` — English home
 - `/zh/` — Traditional Chinese home
-- `/research/` — English research areas, journal articles, and ongoing papers
-- `/zh/research/` — Traditional Chinese research areas, journal articles, and ongoing papers
+- `/research/` — English paper catalogue with journal articles and ongoing research
+- `/zh/research/` — Traditional Chinese paper catalogue with journal articles and ongoing research
 - `/teaching/`, `/about/`, `/zh/teaching/`, `/zh/about/`
 
 The former `/publications/` and `/zh/publications/` URLs remain as redirects so existing bookmarks continue to work.

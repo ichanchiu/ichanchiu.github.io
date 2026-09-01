@@ -19,7 +19,7 @@ alternate_url: /zh/
           <span class="desk-name-alt" lang="zh-Hant">{{ profile.name.zh }}</span>
         </h1>
         <p class="role-line">{{ profile.title.en }} · {{ profile.institution.en }}</p>
-        <p class="research-statement">{{ profile.research_statement.en }}</p>
+        <p class="research-statement" id="research-heading">{{ profile.research_statement.en }}</p>
         <p class="intro-summary">{{ profile.summary.en }}</p>
         <nav class="intro-links" aria-label="Contact and academic profiles">
           <a href="mailto:{{ profile.email }}">Email <span aria-hidden="true">↗</span></a>
@@ -58,34 +58,25 @@ alternate_url: /zh/
         </aside>
       {% endif %}
     </div>
-
-    <nav class="signal-map" aria-label="Research areas">
-      {% for area in site.data.research %}
-        <a class="signal-node" href="{{ '/research/' | append: '#' | append: area.id | relative_url }}">
-          <span class="signal-number">{{ area.number }}</span>
-          <span>{{ area.signal_title.en }}</span>
-        </a>
-      {% endfor %}
-    </nav>
   </div>
 </section>
 
-<section class="home-section" aria-labelledby="research-heading">
+<section class="home-section recent-section" aria-labelledby="recent-heading">
   <div class="shell home-section-grid">
     <div class="home-section-heading">
-      <p class="section-label">01 / Research</p>
-      <h2 id="research-heading">Research lenses</h2>
-      <a href="{{ '/research/' | relative_url }}">Research overview →</a>
+      <p class="section-label">01 / Research output</p>
+      <h2 id="recent-heading">Recent journal articles</h2>
+      <a href="{{ '/research/#publications' | relative_url }}">All publications →</a>
     </div>
-    <div class="plain-research-list">
-      {% for area in site.data.research %}
-        <article>
-          <span>{{ area.number }}</span>
-          <h3>{{ area.title.en }}</h3>
-          <p>{{ area.summary.en }}</p>
-        </article>
+    <ol class="recent-publication-list">
+      {% for paper in site.data.publications limit: 3 %}
+        <li>
+          <p class="publication-title">{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</p>
+          <p class="authors">{% include authors.html authors=paper.authors %}</p>
+          <p class="publication-venue"><em>{{ paper.journal }}</em>, {{ paper.year }}.</p>
+        </li>
       {% endfor %}
-    </div>
+    </ol>
   </div>
 </section>
 
@@ -105,24 +96,5 @@ alternate_url: /zh/
         </article>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="home-section recent-section" aria-labelledby="recent-heading">
-  <div class="shell home-section-grid">
-    <div class="home-section-heading">
-      <p class="section-label">03 / Research output</p>
-      <h2 id="recent-heading">Recent journal articles</h2>
-      <a href="{{ '/research/#publications' | relative_url }}">All publications →</a>
-    </div>
-    <ol class="recent-publication-list">
-      {% for paper in site.data.publications limit: 3 %}
-        <li>
-          <p class="publication-title">{% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</p>
-          <p class="authors">{% include authors.html authors=paper.authors %}</p>
-          <p class="publication-venue"><em>{{ paper.journal }}</em>, {{ paper.year }}.</p>
-        </li>
-      {% endfor %}
-    </ol>
   </div>
 </section>

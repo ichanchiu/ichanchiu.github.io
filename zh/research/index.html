@@ -3,74 +3,86 @@ layout: default
 lang: zh
 page_id: research
 title: 研究
-description: 邱翊展在資產定價、金融語言與金融人工智慧領域的研究主題、期刊論文與工作論文。
+description: 邱翊展在資產定價、金融語言與金融人工智慧領域的期刊論文與進行中研究。
 alternate_url: /research/
 ---
-{% include page-hero.html eyebrow="研究" title="研究" intro="我的研究涵蓋實證資產定價、金融文本分析、投資人預期，以及金融人工智慧方法的開發與評估。" %}
-
-<section class="section content-section" id="research-areas" aria-label="研究領域">
-  <div class="shell research-detail-list">
-    {% for area in site.data.research %}
-      <article class="research-detail" id="{{ area.id }}">
-        <div class="research-index">{{ area.number }}</div>
-        <div>
-          <h2>{{ area.title.zh }}</h2>
-          <p class="research-lead">{{ area.summary.zh }}</p>
-          <ul class="topic-list">
-            {% for topic in area.topics.zh %}<li>{{ topic }}</li>{% endfor %}
-          </ul>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section alternate-section" id="publications" aria-labelledby="journal-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">同儕審查</p>
-      <h2 id="journal-heading">期刊論文</h2>
-    </div>
-    {% include publication-list.html lang="zh" %}
-  </div>
-</section>
-
 {% assign under_review = site.data.working_papers | where: "section", "under-review" %}
-{% if under_review.size > 0 %}
-<section class="section content-section" id="under-review" aria-labelledby="review-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">期刊審查</p>
-      <h2 id="review-heading">審查中論文</h2>
-    </div>
-    {% include working-paper-list.html lang="zh" section="under-review" %}
-  </div>
-</section>
-{% endif %}
-
 {% assign working = site.data.working_papers | where: "section", "working-paper" %}
-{% if working.size > 0 %}
-<section class="section alternate-section" id="working-papers" aria-labelledby="working-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">進行中研究</p>
-      <h2 id="working-heading">工作論文</h2>
-      <p class="section-note">作者順序暫按英文姓氏字母排列，最終順序以定稿為準。</p>
-    </div>
-    {% include working-paper-list.html lang="zh" section="working-paper" %}
-  </div>
-</section>
-{% endif %}
-
 {% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
-{% if in_progress.size > 0 %}
-<section class="section content-section" id="research-in-progress" aria-labelledby="progress-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">早期研究</p>
-      <h2 id="progress-heading">進行中研究</h2>
+
+<section class="paper-index-hero">
+  <span class="legacy-anchor" id="research-areas" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="asset-pricing" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="financial-text" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="ai-finance" aria-hidden="true"></span>
+  <div class="shell paper-index-hero-grid">
+    <div>
+      <p class="eyebrow">研究目錄</p>
+      <h1>研究論文</h1>
     </div>
-    {% include working-paper-list.html lang="zh" section="research-in-progress" %}
+    <div class="paper-index-overview">
+      <p>涵蓋資產定價、金融語言與金融人工智慧的已出版與進行中研究。</p>
+      <nav class="paper-index-summary" aria-label="論文分類">
+        <a href="#publications"><strong>{{ site.data.publications.size }}</strong><span>期刊論文</span></a>
+        {% if under_review.size > 0 %}<a href="#under-review"><strong>{{ under_review.size }}</strong><span>審查中</span></a>{% endif %}
+        {% if working.size > 0 %}<a href="#working-papers"><strong>{{ working.size }}</strong><span>工作論文</span></a>{% endif %}
+        {% if in_progress.size > 0 %}<a href="#research-in-progress"><strong>{{ in_progress.size }}</strong><span>進行中</span></a>{% endif %}
+      </nav>
+    </div>
   </div>
 </section>
-{% endif %}
+
+<section class="paper-catalogue">
+  <div class="shell paper-catalogue-grid">
+    <aside class="paper-catalogue-nav">
+      <p class="section-label">論文索引</p>
+      <nav aria-label="論文分類索引">
+        <a href="#publications"><span>01</span>期刊論文 <em>{{ site.data.publications.size }}</em></a>
+        {% if under_review.size > 0 %}<a href="#under-review"><span>02</span>審查中 <em>{{ under_review.size }}</em></a>{% endif %}
+        {% if working.size > 0 %}<a href="#working-papers"><span>03</span>工作論文 <em>{{ working.size }}</em></a>{% endif %}
+        {% if in_progress.size > 0 %}<a href="#research-in-progress"><span>04</span>進行中 <em>{{ in_progress.size }}</em></a>{% endif %}
+      </nav>
+    </aside>
+
+    <div class="paper-catalogue-stream">
+      <section class="catalogue-section" id="publications" aria-labelledby="journal-heading">
+        <header class="catalogue-heading">
+          <p class="eyebrow">同儕審查</p>
+          <h2 id="journal-heading">期刊論文</h2>
+        </header>
+        {% include publication-list.html lang="zh" %}
+      </section>
+
+      {% if under_review.size > 0 %}
+        <section class="catalogue-section" id="under-review" aria-labelledby="review-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">期刊審查</p>
+            <h2 id="review-heading">審查中論文</h2>
+          </header>
+          {% include working-paper-list.html lang="zh" section="under-review" %}
+        </section>
+      {% endif %}
+
+      {% if working.size > 0 %}
+        <section class="catalogue-section" id="working-papers" aria-labelledby="working-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">進行中研究</p>
+            <h2 id="working-heading">工作論文</h2>
+            <p class="section-note">作者順序暫按英文姓氏字母排列，最終順序以定稿為準。</p>
+          </header>
+          {% include working-paper-list.html lang="zh" section="working-paper" %}
+        </section>
+      {% endif %}
+
+      {% if in_progress.size > 0 %}
+        <section class="catalogue-section" id="research-in-progress" aria-labelledby="progress-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">早期研究</p>
+            <h2 id="progress-heading">進行中研究</h2>
+          </header>
+          {% include working-paper-list.html lang="zh" section="research-in-progress" %}
+        </section>
+      {% endif %}
+    </div>
+  </div>
+</section>

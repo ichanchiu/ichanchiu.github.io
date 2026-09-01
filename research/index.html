@@ -3,74 +3,86 @@ layout: default
 lang: en
 page_id: research
 title: Research
-description: Research areas, journal articles, and working papers by I-Chan Chiu in asset pricing, financial language, and artificial intelligence in finance.
+description: Journal articles and ongoing research by I-Chan Chiu in asset pricing, financial language, and artificial intelligence in finance.
 alternate_url: /zh/research/
 ---
-{% include page-hero.html eyebrow="Research" title="Research" intro="My research covers empirical asset pricing, textual analysis in finance, investor expectations, and the development and evaluation of artificial intelligence methods for financial research." %}
-
-<section class="section content-section" id="research-areas" aria-label="Research areas">
-  <div class="shell research-detail-list">
-    {% for area in site.data.research %}
-      <article class="research-detail" id="{{ area.id }}">
-        <div class="research-index">{{ area.number }}</div>
-        <div>
-          <h2>{{ area.title.en }}</h2>
-          <p class="research-lead">{{ area.summary.en }}</p>
-          <ul class="topic-list">
-            {% for topic in area.topics.en %}<li>{{ topic }}</li>{% endfor %}
-          </ul>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section alternate-section" id="publications" aria-labelledby="journal-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Peer-reviewed</p>
-      <h2 id="journal-heading">Journal articles</h2>
-    </div>
-    {% include publication-list.html lang="en" %}
-  </div>
-</section>
-
 {% assign under_review = site.data.working_papers | where: "section", "under-review" %}
-{% if under_review.size > 0 %}
-<section class="section content-section" id="under-review" aria-labelledby="review-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Editorial process</p>
-      <h2 id="review-heading">Under review</h2>
-    </div>
-    {% include working-paper-list.html lang="en" section="under-review" %}
-  </div>
-</section>
-{% endif %}
-
 {% assign working = site.data.working_papers | where: "section", "working-paper" %}
-{% if working.size > 0 %}
-<section class="section alternate-section" id="working-papers" aria-labelledby="working-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Ongoing research</p>
-      <h2 id="working-heading">Working papers</h2>
-      <p class="section-note">Author order is provisional and listed alphabetically by surname.</p>
-    </div>
-    {% include working-paper-list.html lang="en" section="working-paper" %}
-  </div>
-</section>
-{% endif %}
-
 {% assign in_progress = site.data.working_papers | where: "section", "research-in-progress" %}
-{% if in_progress.size > 0 %}
-<section class="section content-section" id="research-in-progress" aria-labelledby="progress-heading">
-  <div class="shell list-section">
-    <div class="list-heading">
-      <p class="eyebrow">Early-stage work</p>
-      <h2 id="progress-heading">Research in progress</h2>
+
+<section class="paper-index-hero">
+  <span class="legacy-anchor" id="research-areas" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="asset-pricing" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="financial-text" aria-hidden="true"></span>
+  <span class="legacy-anchor" id="ai-finance" aria-hidden="true"></span>
+  <div class="shell paper-index-hero-grid">
+    <div>
+      <p class="eyebrow">Research dossier</p>
+      <h1>Research papers</h1>
     </div>
-    {% include working-paper-list.html lang="en" section="research-in-progress" %}
+    <div class="paper-index-overview">
+      <p>Published and ongoing work in asset pricing, financial language, and artificial intelligence in finance.</p>
+      <nav class="paper-index-summary" aria-label="Paper sections">
+        <a href="#publications"><strong>{{ site.data.publications.size }}</strong><span>Journal articles</span></a>
+        {% if under_review.size > 0 %}<a href="#under-review"><strong>{{ under_review.size }}</strong><span>Under review</span></a>{% endif %}
+        {% if working.size > 0 %}<a href="#working-papers"><strong>{{ working.size }}</strong><span>Working papers</span></a>{% endif %}
+        {% if in_progress.size > 0 %}<a href="#research-in-progress"><strong>{{ in_progress.size }}</strong><span>In progress</span></a>{% endif %}
+      </nav>
+    </div>
   </div>
 </section>
-{% endif %}
+
+<section class="paper-catalogue">
+  <div class="shell paper-catalogue-grid">
+    <aside class="paper-catalogue-nav">
+      <p class="section-label">Paper index</p>
+      <nav aria-label="Paper categories">
+        <a href="#publications"><span>01</span>Journal articles <em>{{ site.data.publications.size }}</em></a>
+        {% if under_review.size > 0 %}<a href="#under-review"><span>02</span>Under review <em>{{ under_review.size }}</em></a>{% endif %}
+        {% if working.size > 0 %}<a href="#working-papers"><span>03</span>Working papers <em>{{ working.size }}</em></a>{% endif %}
+        {% if in_progress.size > 0 %}<a href="#research-in-progress"><span>04</span>In progress <em>{{ in_progress.size }}</em></a>{% endif %}
+      </nav>
+    </aside>
+
+    <div class="paper-catalogue-stream">
+      <section class="catalogue-section" id="publications" aria-labelledby="journal-heading">
+        <header class="catalogue-heading">
+          <p class="eyebrow">Peer-reviewed</p>
+          <h2 id="journal-heading">Journal articles</h2>
+        </header>
+        {% include publication-list.html lang="en" %}
+      </section>
+
+      {% if under_review.size > 0 %}
+        <section class="catalogue-section" id="under-review" aria-labelledby="review-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">Editorial process</p>
+            <h2 id="review-heading">Under review</h2>
+          </header>
+          {% include working-paper-list.html lang="en" section="under-review" %}
+        </section>
+      {% endif %}
+
+      {% if working.size > 0 %}
+        <section class="catalogue-section" id="working-papers" aria-labelledby="working-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">Ongoing research</p>
+            <h2 id="working-heading">Working papers</h2>
+            <p class="section-note">Author order is provisional and listed alphabetically by surname.</p>
+          </header>
+          {% include working-paper-list.html lang="en" section="working-paper" %}
+        </section>
+      {% endif %}
+
+      {% if in_progress.size > 0 %}
+        <section class="catalogue-section" id="research-in-progress" aria-labelledby="progress-heading">
+          <header class="catalogue-heading">
+            <p class="eyebrow">Early-stage work</p>
+            <h2 id="progress-heading">Research in progress</h2>
+          </header>
+          {% include working-paper-list.html lang="en" section="research-in-progress" %}
+        </section>
+      {% endif %}
+    </div>
+  </div>
+</section>

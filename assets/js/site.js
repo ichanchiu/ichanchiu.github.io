@@ -18,6 +18,21 @@ if (isLegacyGrantAnchor) {
   window.location.replace(`${homePath}#grants-heading`);
 }
 
+const legacyResearchAnchors = new Set([
+  "#research-areas",
+  "#asset-pricing",
+  "#financial-text",
+  "#ai-finance",
+]);
+
+const isLegacyResearchAnchor = legacyResearchAnchors.has(window.location.hash)
+  && /\/(?:zh\/)?research\/$/.test(window.location.pathname);
+
+if (isLegacyResearchAnchor) {
+  const homePath = window.location.pathname.startsWith("/zh/") ? "/zh/" : "/";
+  window.location.replace(`${homePath}#research-heading`);
+}
+
 document.querySelectorAll("a[href]").forEach((link) => {
   let destination;
 
