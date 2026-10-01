@@ -65,23 +65,6 @@
     en: Under Review
     zh: 審查中
 
-- id: fundllm
-  section: working-paper
-  title: "Does Innovative Strategy Disclosure Attract Capital? LLM-Based Evidence from New Mutual Funds"
-  authors:
-    - name: I-Chan Chiu
-      short: I. Chiu
-      self: true
-    - name: Yi-Ta Huang
-      short: Y. Huang
-    - name: Yong-Jyun Tu
-      short: Y. Tu
-    - name: Chia-Yi Yen
-      short: C. Yen
-  status:
-    en: Working Paper
-    zh: 工作論文
-
 - id: attrition-latency
   section: working-paper
   title: "Attrition and Latency"
