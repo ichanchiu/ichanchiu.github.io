@@ -19,6 +19,10 @@ defaults:
         path: /assets/images/og-mineral.png
         width: 1200
         height: 630
+  - scope:
+      path: "zh"
+    values:
+      sitemap: false
 social:
   name: I-Chan Chiu
   links:

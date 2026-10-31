@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f3f6f4">
+    {% if page.lang == 'zh' %}<meta name="robots" content="noindex, follow">{% endif %}
     <title>I-Chan Chiu (邱翊展)</title>
     {% seo title=false %}
     {% capture asset_version %}{{ site.time | date: '%Y%m%d%H%M%S' }}{% endcapture %}
