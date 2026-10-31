@@ -50,20 +50,18 @@
     en: Working Paper
     zh: 工作論文
 
-- id: semivariance-information
+- id: ptt
   section: under-review
-  title: "Mispricing in Semivariance Information Discreteness"
+  title: "Revealed Fragility: Large Language Models and the Pricing of Retail Stock Recommendations"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
       self: true
     - name: Yi-Ta Huang
       short: Y. Huang
-    - name: Mao-Wei Hung
-      short: M. Hung
   status:
-    en: Under Review
-    zh: 審查中
+    en: Revise and Resubmit
+    zh: 修改後再審
 
 - id: attrition-latency
   section: working-paper
@@ -82,15 +80,17 @@
     en: Working Paper
     zh: 工作論文
 
-- id: ptt
+- id: semivariance-information
   section: under-review
-  title: "Revealed Fragility: Large Language Models and the Pricing of Retail Stock Recommendations"
+  title: "Mispricing in Semivariance Information Discreteness"
   authors:
     - name: I-Chan Chiu
       short: I. Chiu
       self: true
     - name: Yi-Ta Huang
       short: Y. Huang
+    - name: Mao-Wei Hung
+      short: M. Hung
   status:
-    en: Revise and Resubmit
-    zh: 修改後再審
+    en: Under Review
+    zh: 審查中

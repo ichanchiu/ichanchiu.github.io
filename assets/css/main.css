@@ -348,7 +348,6 @@ img {
 .desk-visual img {
   width: 100%;
   height: auto;
-  padding: 10px;
   border: 1px solid var(--line);
   border-radius: 18px;
   background: var(--mineral-wash);
